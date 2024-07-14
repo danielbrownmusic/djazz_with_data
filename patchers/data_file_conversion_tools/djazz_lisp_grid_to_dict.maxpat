@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 48.0, 100.0, 1279.0, 606.0 ],
+		"rect" : [ 48.0, 100.0, 942.0, 648.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,24 +46,22 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1418.5, 469.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1418.5, 556.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.75, 291.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 3.0, 165.0, 41.5, 41.5 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-200",
-					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 789.416665500000022, 333.0, 177.666669000000013, 89.0 ],
+					"patching_rect" : [ 747.0, 222.000001400709152, 177.666669000000013, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.166669000000013, 4.0, 663.0, 22.0 ],
-					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_generic/djazz_user/scores/AllOfMe/AllOfMe.json\""
+					"presentation_rect" : [ 48.166669000000013, 4.0, 663.0, 22.0 ]
 				}
 
 			}
@@ -113,8 +111,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -201,11 +199,12 @@
 									"id" : "obj-172",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 346.0, 393.833331999999984, 50.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -343,7 +342,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1418.5, 401.166668000000016, 220.0, 22.0 ],
+					"patching_rect" : [ 1418.5, 484.0, 240.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -358,18 +357,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-186",
-					"linecount" : 6,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"outputmode" : 1,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1418.5, 333.0, 192.0, 24.0 ],
+					"patching_rect" : [ 1418.5, 333.0, 203.0, 97.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 48.166669000000013, 262.666668057441711, 663.0, 33.0 ],
-					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_generic/djazz_user/scores/AllOfMe/AllOfMe-new.json\""
+					"presentation_rect" : [ 48.100004941225052, 531.200007915496826, 663.0, 51.0 ]
 				}
 
 			}
@@ -384,8 +380,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -531,7 +527,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1254.5, 195.833333760499954, 135.0, 22.0 ],
+					"patching_rect" : [ 1272.0, 183.0, 135.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -553,7 +549,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1418.5, 14.0, 41.5, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 263.166668057441711, 41.5, 23.0 ],
+					"presentation_rect" : [ 3.0, 133.0, 41.5, 23.0 ],
 					"text" : "save",
 					"texton" : "save"
 				}
@@ -569,8 +565,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -627,8 +623,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -779,8 +775,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -892,14 +888,14 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+										"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1004,8 +1000,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1080,11 +1076,12 @@
 													"id" : "obj-65",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
-													"numoutlets" : 4,
-													"outlettype" : [ "dictionary", "", "", "" ],
+													"numoutlets" : 5,
+													"outlettype" : [ "dictionary", "", "", "", "" ],
 													"patching_rect" : [ 81.25, 437.0, 50.5, 22.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0,
+														"legacy" : 1,
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
@@ -1218,8 +1215,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1420,8 +1417,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1495,7 +1492,7 @@
 												"box" : 												{
 													"id" : "obj-12",
 													"maxclass" : "newobj",
-													"numinlets" : 1,
+													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "dictionary" ],
 													"patching_rect" : [ 50.0, 283.199998241134608, 88.0, 22.0 ],
@@ -1507,7 +1504,7 @@
 												"box" : 												{
 													"id" : "obj-10",
 													"maxclass" : "newobj",
-													"numinlets" : 2,
+													"numinlets" : 3,
 													"numoutlets" : 1,
 													"outlettype" : [ "dictionary" ],
 													"patching_rect" : [ 50.0, 161.199998241134608, 169.0, 22.0 ],
@@ -1526,8 +1523,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 4,
+															"minor" : 6,
+															"revision" : 3,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1636,11 +1633,12 @@
 																	"id" : "obj-25",
 																	"maxclass" : "newobj",
 																	"numinlets" : 2,
-																	"numoutlets" : 4,
-																	"outlettype" : [ "dictionary", "", "", "" ],
+																	"numoutlets" : 5,
+																	"outlettype" : [ "dictionary", "", "", "", "" ],
 																	"patching_rect" : [ 51.150003135204315, 288.800002813339233, 50.5, 22.0 ],
 																	"saved_object_attributes" : 																	{
 																		"embed" : 0,
+																		"legacy" : 1,
 																		"parameter_enable" : 0,
 																		"parameter_mappable" : 0
 																	}
@@ -1905,14 +1903,14 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 407.0, 181.0, 640.0, 480.0 ],
+										"rect" : [ 969.0, 248.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2030,8 +2028,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
-													"patching_rect" : [ 50.0, 100.0, 206.0, 22.0 ],
-													"text" : "regexp \\\\(([a-z]+)\\\\s+(\\\\w+)\\\\s+(\\\\d+)\\\\)"
+													"patching_rect" : [ 50.0, 100.0, 218.0, 22.0 ],
+													"text" : "regexp \\\\(([a-z]+#*)\\\\s+(\\\\w+)\\\\s+(\\\\d+)\\\\)"
 												}
 
 											}
@@ -2181,14 +2179,14 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+										"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2235,8 +2233,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
-													"patching_rect" : [ 50.0, 167.5, 190.0, 22.0 ],
-													"text" : "regexp (\\\\([a-z]+\\\\s+\\\\w+\\\\s+\\\\d+\\\\))"
+													"patching_rect" : [ 50.0, 167.5, 202.0, 22.0 ],
+													"text" : "regexp (\\\\([a-z]+#*\\\\s+\\\\w+\\\\s+\\\\d+\\\\))"
 												}
 
 											}
@@ -2333,11 +2331,12 @@
 									"id" : "obj-27",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 89.0, 572.500024256927531, 50.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -2488,8 +2487,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2650,8 +2649,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2726,11 +2725,12 @@
 									"id" : "obj-115",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 50.0, 250.0, 50.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -2814,8 +2814,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2878,9 +2878,13 @@
 									"id" : "obj-80",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 354.0, 106.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"legacy" : 1
+									}
+,
 									"text" : "dict.unpack name:"
 								}
 
@@ -2890,9 +2894,13 @@
 									"id" : "obj-79",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 276.0, 126.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"legacy" : 1
+									}
+,
 									"text" : "dict.unpack metadata:"
 								}
 
@@ -3002,8 +3010,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3078,11 +3086,12 @@
 									"id" : "obj-119",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 50.0, 273.0, 50.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -3221,7 +3230,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 22.5, 14.0, 41.5, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 60.166668057441711, 41.5, 23.0 ],
+					"presentation_rect" : [ 3.0, 104.0, 41.5, 23.0 ],
 					"text" : "make",
 					"texton" : "make"
 				}
@@ -3235,7 +3244,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 22.5, 444.166668000000016, 100.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 724.0, 4.0, 211.0, 526.0 ]
+					"presentation_rect" : [ 724.0, 4.0, 209.600003123283386, 628.800009369850159 ]
 				}
 
 			}
@@ -3249,7 +3258,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 767.0, 14.0, 41.5, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 31.0, 41.5, 22.0 ],
+					"presentation_rect" : [ 3.0, 33.0, 41.5, 22.0 ],
 					"text" : "clear",
 					"texton" : "clear"
 				}
@@ -3280,8 +3289,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 997.5, 333.0, 177.666669000000013, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.166669000000013, 31.0, 303.999999999999943, 22.0 ],
-					"text" : "AllOfMe"
+					"presentation_rect" : [ 48.166669000000013, 61.0, 303.999999999999943, 22.0 ]
 				}
 
 			}
@@ -3312,7 +3320,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"linecount" : 5,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -3320,9 +3327,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 145.5, 192.166668057441711, 554.000000536441803, 148.666666686534882 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 48.166669000000013, 60.166668057441711, 663.0, 191.666666686534882 ],
-					"text" : "(c maj7 8) (e 7 8) (a 7 8) (d m7 8) (e 7 8) (a m7 8) (d 7 8) (d m7 4) (g 7 4)\n                        (c maj7 8) (e 7 8) (a 7 8) (d m7 8) (d m7 4) (eb dim 4) (c maj7 4) (a 7 4) (d m7 4) (g 7 4) (c maj7 8)\n\n                        (c m7b5 32)"
+					"presentation_rect" : [ 48.0, 93.0, 663.200009882450104, 424.000006318092346 ]
 				}
 
 			}
@@ -3345,7 +3350,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 1418.5, 133.333335161209106, 220.0, 22.0 ],
+					"patching_rect" : [ 1418.5, 133.333335161209106, 240.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -3367,7 +3372,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-177", 0 ],
+					"destination" : [ "obj-197", 0 ],
 					"source" : [ "obj-121", 2 ]
 				}
 
@@ -3456,13 +3461,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-197", 0 ],
-					"source" : [ "obj-177", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-193", 0 ],
 					"source" : [ "obj-186", 0 ]
 				}
@@ -3485,7 +3483,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-186", 0 ],
-					"midpoints" : [ 1264.0, 312.0, 1428.0, 312.0 ],
+					"midpoints" : [ 1264.0, 303.0, 1428.0, 303.0 ],
 					"source" : [ "obj-199", 0 ]
 				}
 
@@ -3548,6 +3546,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-161", 0 ],
+					"midpoints" : [ 776.5, 115.583334000000008, 32.0, 115.583334000000008 ],
 					"order" : 3,
 					"source" : [ "obj-84", 0 ]
 				}
@@ -3579,7 +3578,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "du.dict_to_obj.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_generic/patchers/tools/dict/nested",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict/nested",
 				"patcherrelativepath" : "../tools/dict/nested",
 				"type" : "JSON",
 				"implicit" : 1
