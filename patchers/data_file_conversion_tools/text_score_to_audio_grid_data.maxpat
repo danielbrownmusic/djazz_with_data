@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 5,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 587.0, 216.0, 1221.0, 1010.0 ],
+		"rect" : [ 58.0, 134.0, 562.0, 541.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 427.419357895851135, 274.19355034828186, 24.0, 24.0 ]
+					"patching_rect" : [ 371.0, 151.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.774197101593018, 212.096775710582733, 55.0, 22.0 ],
+					"patching_rect" : [ 403.0, 152.0, 55.0, 22.0 ],
 					"text" : "name $1"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 654.032262742519379, 315.322582900524139, 35.0, 22.0 ],
+					"patching_rect" : [ 463.0, 152.0, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 170.967743158340454, 416.129035234451294, 55.0, 22.0 ],
+					"patching_rect" : [ 167.361291182041214, 426.0, 55.0, 22.0 ],
 					"text" : "beats $1"
 				}
 
@@ -104,7 +104,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 461.290325880050659, 470.967745304107666, 412.09677642583847, 326.612904846668243 ]
+					"patching_rect" : [ 371.0, 247.0, 156.0, 246.0 ]
 				}
 
 			}
@@ -113,11 +113,12 @@
 					"id" : "obj-76",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 441.935487031936646, 368.548389732837677, 50.5, 22.0 ],
+					"numoutlets" : 5,
+					"outlettype" : [ "dictionary", "", "", "", "" ],
+					"patching_rect" : [ 371.0, 210.0, 50.5, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
+						"legacy" : 1,
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -136,8 +137,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 5,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -188,11 +189,12 @@
 									"id" : "obj-61",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
+									"numoutlets" : 5,
+									"outlettype" : [ "dictionary", "", "", "", "" ],
 									"patching_rect" : [ 50.0, 188.800001323223114, 50.5, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
+										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -306,8 +308,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 5,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -357,7 +359,7 @@
 								"box" : 								{
 									"id" : "obj-41",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "dictionary" ],
 									"patching_rect" : [ 50.0, 167.200001001358032, 88.0, 22.0 ],
@@ -457,8 +459,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 5,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -492,7 +494,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -528,8 +529,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 5,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -638,11 +639,12 @@
 													"id" : "obj-25",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
-													"numoutlets" : 4,
-													"outlettype" : [ "dictionary", "", "", "" ],
+													"numoutlets" : 5,
+													"outlettype" : [ "dictionary", "", "", "", "" ],
 													"patching_rect" : [ 51.150003135204315, 288.800002813339233, 50.5, 22.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0,
+														"legacy" : 1,
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
@@ -893,8 +895,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 5,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1196,11 +1198,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-36",
+					"linecount" : 2,
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "dictionary" ],
-					"patching_rect" : [ 167.361290693283081, 306.29678156647492, 115.0, 22.0 ],
+					"patching_rect" : [ 167.361290693283081, 306.29678156647492, 67.0, 35.0 ],
 					"text" : "dict.pack root: type:"
 				}
 
@@ -1371,63 +1374,63 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "du.append_dict.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/patchers/tools/dict/nested",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict/nested",
 				"patcherrelativepath" : "../tools/dict/nested",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.dict_to_obj.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/patchers/tools/dict/nested",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict/nested",
 				"patcherrelativepath" : "../tools/dict/nested",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.does_index_exist.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.does_key_exist.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.get_at.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.get_at_no_error_check.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.get_last.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.get_size.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict",
 				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.name_to_obj.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track/patchers/tools/dict/nested",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict/nested",
 				"patcherrelativepath" : "../tools/dict/nested",
 				"type" : "JSON",
 				"implicit" : 1

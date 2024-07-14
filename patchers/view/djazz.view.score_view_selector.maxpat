@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -90,6 +90,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -159,8 +160,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -597,35 +598,35 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "djazz.view.beat_clock.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/view",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view.score_view_selector_views.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/view",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view.track_information.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/view",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_select_score_file_view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/song file io",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/song file io",
 				"patcherrelativepath" : "../song file io",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "song_folder.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/media",
 				"patcherrelativepath" : "../../media",
 				"type" : "PNG",
 				"implicit" : 1

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 195.0, 170.0, 1097.0, 412.0 ],
+		"rect" : [ 202.0, 295.0, 1097.0, 412.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -342,6 +342,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-63",
+					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1057,6 +1058,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-50",
+					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1326,6 +1328,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-43",
+					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2347,6 +2350,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-25",
+					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2560,6 +2564,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
+					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2590,6 +2595,7 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-6",
+					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3493,6 +3499,7 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-187",
+					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3561,6 +3568,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-132",
+					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3831,6 +3839,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-119",
+					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3848,6 +3857,7 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-118",
+					"ignoreclick" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4288,34 +4298,34 @@
 		"dependency_cache" : [ 			{
 				"name" : "darr.get_at.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict",
-				"patcherrelativepath" : "./patchers/tools/dict",
+				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "darr.set_at.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict",
-				"patcherrelativepath" : "./patchers/tools/dict",
+				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.make_beat_list.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/data_file_makers",
-				"patcherrelativepath" : "./patchers/data_file_makers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.make_multiple_tracks.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/data_file_makers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.make_single_track.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/data_file_makers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4323,21 +4333,21 @@
 , 			{
 				"name" : "djazz_tempo_to_ms.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/conversion",
-				"patcherrelativepath" : "./patchers/tools/conversion",
+				"patcherrelativepath" : "../tools/conversion",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.get_subdict.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict",
-				"patcherrelativepath" : "./patchers/tools/dict",
+				"patcherrelativepath" : "../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.name_to_obj.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict/nested",
-				"patcherrelativepath" : "./patchers/tools/dict/nested",
+				"patcherrelativepath" : "../tools/dict/nested",
 				"type" : "JSON",
 				"implicit" : 1
 			}
