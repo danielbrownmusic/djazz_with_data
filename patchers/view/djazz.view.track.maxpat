@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,13 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1225.0, 710.0, 99.0, 22.0 ],
+					"text" : "prepend track #2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-168",
 					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1225.15512565217432, 739.0, 30.0, 30.0 ]
+					"patching_rect" : [ 1225.0, 762.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -265,8 +277,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -900,8 +912,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1260,6 +1272,7 @@
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_max_continuity",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_max_continuity",
 							"parameter_type" : 3
 						}
@@ -1566,6 +1579,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_reset_pitch",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_reset_pitch",
 							"parameter_type" : 2
 						}
@@ -1601,6 +1615,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_pitch_down",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_pitch_down",
 							"parameter_type" : 2
 						}
@@ -1636,6 +1651,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_pitch_up",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_pitch_up",
 							"parameter_type" : 2
 						}
@@ -1660,8 +1676,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1706,8 +1722,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2652,8 +2668,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4200,6 +4216,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_loop_8",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_loop_8",
 							"parameter_type" : 2
 						}
@@ -4236,6 +4253,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_loop_7",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_loop_7",
 							"parameter_type" : 2
 						}
@@ -4272,6 +4290,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_loop_6",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_loop_6",
 							"parameter_type" : 2
 						}
@@ -4308,6 +4327,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_loop_5",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_loop_5",
 							"parameter_type" : 2
 						}
@@ -4344,6 +4364,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_loop_4",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_loop_4",
 							"parameter_type" : 2
 						}
@@ -4380,6 +4401,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_loop_3",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_loop_3",
 							"parameter_type" : 2
 						}
@@ -4416,6 +4438,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_loop_2",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_loop_2",
 							"parameter_type" : 2
 						}
@@ -4452,6 +4475,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_loop_1",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_loop_1",
 							"parameter_type" : 2
 						}
@@ -4488,6 +4512,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_speed_4",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_speed_4",
 							"parameter_type" : 2
 						}
@@ -4524,6 +4549,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_speed_3/2",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_speed_3/2",
 							"parameter_type" : 2
 						}
@@ -4560,6 +4586,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_speed_1/2",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_speed_1/2",
 							"parameter_type" : 2
 						}
@@ -4596,6 +4623,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_speed_2",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_speed_2",
 							"parameter_type" : 2
 						}
@@ -4631,6 +4659,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_improvise",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_improvise",
 							"parameter_type" : 2
 						}
@@ -4691,6 +4720,7 @@
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_pitch_range",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_pitch_range",
 							"parameter_type" : 3
 						}
@@ -4721,6 +4751,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_reset_octave",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_reset_octave",
 							"parameter_type" : 2
 						}
@@ -4756,6 +4787,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_octave_down",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_octave_down",
 							"parameter_type" : 2
 						}
@@ -4791,6 +4823,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "#1_octave_up",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_octave_up",
 							"parameter_type" : 2
 						}
@@ -4815,8 +4848,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4909,8 +4942,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5362,6 +5395,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "score_2_transpose_pitch",
 							"parameter_mmin" : -127.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "score_1_transpose_pitch",
 							"parameter_type" : 0
 						}
@@ -6087,7 +6121,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-168", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-167", 0 ]
 				}
 
@@ -6535,6 +6569,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-168", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-60", 0 ]
 				}
@@ -6777,84 +6818,84 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "15838-200.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/media",
 				"patcherrelativepath" : "../../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2448971-200.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/media",
 				"patcherrelativepath" : "../../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2650315-200.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/media",
 				"patcherrelativepath" : "../../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "45570-200.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/media",
 				"patcherrelativepath" : "../../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "5057-200.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/media",
 				"patcherrelativepath" : "../../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "55162.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/media",
 				"patcherrelativepath" : "../../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view.beat_clock.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/view",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view.select_track_file.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/song file io",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/song file io",
 				"patcherrelativepath" : "../song file io",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view.track_information.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/view",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view.track_view_selector.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/view",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view.track_view_selector_views.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/view",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "song_folder.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/media",
 				"patcherrelativepath" : "../../media",
 				"type" : "PNG",
 				"implicit" : 1

@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 19.0, 251.0, 85.0, 22.0 ],
+					"text" : "prepend score"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -58,7 +70,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 263.0, 30.0, 30.0 ]
+					"patching_rect" : [ 19.0, 301.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -5515,13 +5527,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 690.0, 118.0, 58.0, 35.0 ],
-					"text" : "text 0, texton 0"
+					"patching_rect" : [ 690.0, 118.0, 101.0, 22.0 ],
+					"text" : "text #3, texton #3"
 				}
 
 			}
@@ -5627,12 +5638,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 621.0, 278.0, 25.866071393981827, 23.0 ],
+					"patching_rect" : [ 621.0, 279.0, 25.866071393981827, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 22.0, 22.0 ],
-					"text" : "#3",
+					"text" : "0",
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
-					"texton" : "#3",
+					"texton" : "0",
 					"textoncolor" : [ 0.015686274509804, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 					"usebgoncolor" : 1,
@@ -5675,6 +5686,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-99", 0 ],
 					"source" : [ "obj-100", 0 ]
@@ -6830,7 +6848,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
