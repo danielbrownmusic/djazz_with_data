@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -73,7 +73,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -271,7 +271,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -610,7 +610,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -799,7 +799,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1019,7 +1019,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 208.0, 786.0, 90.0, 22.0 ],
+					"patching_rect" : [ 208.0, 784.0, 90.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1061,7 +1061,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-9",
-					"items" : "<empty>",
+					"items" : [ ",", "Launchpad", "Mini" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1127,7 +1127,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2268,48 +2268,48 @@
 			"obj-65::obj-45::obj-17::obj-58" : [ "midi_track_1_improvise", "score_1_improvise", 0 ],
 			"obj-65::obj-45::obj-17::obj-71" : [ "midi_track_1_pitch_range", "score_1_pitch_range", 0 ],
 			"obj-65::obj-45::obj-18::obj-14" : [ "score_2_speed_2", "score_1_speed_2", 0 ],
-			"obj-65::obj-45::obj-18::obj-149" : [ "score_2_reset_pitch", "score_1_reset_pitch", 0 ],
 			"obj-65::obj-45::obj-18::obj-15" : [ "score_2_speed_1/2", "score_1_speed_1/2", 0 ],
-			"obj-65::obj-45::obj-18::obj-150" : [ "score_2_pitch_down", "score_1_pitch_down", 0 ],
-			"obj-65::obj-45::obj-18::obj-151" : [ "score_2_pitch_up", "score_1_pitch_up", 0 ],
 			"obj-65::obj-45::obj-18::obj-17" : [ "score_2_speed_3/2", "score_1_speed_3/2", 0 ],
 			"obj-65::obj-45::obj-18::obj-188" : [ "score_2_max_continuity", "score_1_max_continuity", 0 ],
 			"obj-65::obj-45::obj-18::obj-19" : [ "score_2_speed_4", "score_1_speed_4", 0 ],
 			"obj-65::obj-45::obj-18::obj-20" : [ "score_2_loop_1", "score_1_loop_1", 0 ],
 			"obj-65::obj-45::obj-18::obj-22" : [ "score_2_transpose_pitch[16]", "score_1_transpose_pitch", 0 ],
-			"obj-65::obj-45::obj-18::obj-26" : [ "score_2_octave_up", "score_1_octave_up", 0 ],
 			"obj-65::obj-45::obj-18::obj-27" : [ "score_2_loop_2", "score_1_loop_2", 0 ],
 			"obj-65::obj-45::obj-18::obj-28" : [ "score_2_loop_3", "score_1_loop_3", 0 ],
 			"obj-65::obj-45::obj-18::obj-29" : [ "score_2_loop_4", "score_1_loop_4", 0 ],
 			"obj-65::obj-45::obj-18::obj-30" : [ "score_2_loop_5", "score_1_loop_5", 0 ],
-			"obj-65::obj-45::obj-18::obj-34" : [ "score_2_octave_down", "score_1_octave_down", 0 ],
 			"obj-65::obj-45::obj-18::obj-36" : [ "score_2_loop_6", "score_1_loop_6", 0 ],
 			"obj-65::obj-45::obj-18::obj-37" : [ "score_2_loop_7", "score_1_loop_7", 0 ],
-			"obj-65::obj-45::obj-18::obj-38" : [ "score_2_reset_octave", "score_1_reset_octave", 0 ],
+			"obj-65::obj-45::obj-18::obj-38" : [ "score_2_reset_pitch", "toggle", 0 ],
 			"obj-65::obj-45::obj-18::obj-39" : [ "score_2_loop_8", "score_1_loop_8", 0 ],
+			"obj-65::obj-45::obj-18::obj-44" : [ "score_2_pitch_down", "toggle[1]", 0 ],
+			"obj-65::obj-45::obj-18::obj-51" : [ "score_2_pitch_up", "toggle[2]", 0 ],
+			"obj-65::obj-45::obj-18::obj-52" : [ "score_2_octave_up", "score_2_octave_up[2]", 0 ],
+			"obj-65::obj-45::obj-18::obj-53" : [ "score_2_octave_down", "score_2_octave_down", 0 ],
 			"obj-65::obj-45::obj-18::obj-58" : [ "score_2_improvise", "score_1_improvise", 0 ],
+			"obj-65::obj-45::obj-18::obj-69" : [ "score_2_reset_octave[1]", "score_2_reset_octave[1]", 0 ],
 			"obj-65::obj-45::obj-18::obj-71" : [ "score_2_pitch_range", "score_1_pitch_range", 0 ],
 			"obj-65::obj-45::obj-19::obj-14" : [ "score_1_speed_2", "score_1_speed_2", 0 ],
-			"obj-65::obj-45::obj-19::obj-149" : [ "score_1_reset_pitch", "score_1_reset_pitch", 0 ],
 			"obj-65::obj-45::obj-19::obj-15" : [ "score_1_speed_1/2", "score_1_speed_1/2", 0 ],
-			"obj-65::obj-45::obj-19::obj-150" : [ "score_1_pitch_down", "score_1_pitch_down", 0 ],
-			"obj-65::obj-45::obj-19::obj-151" : [ "score_1_pitch_up", "score_1_pitch_up", 0 ],
 			"obj-65::obj-45::obj-19::obj-17" : [ "score_1_speed_3/2", "score_1_speed_3/2", 0 ],
 			"obj-65::obj-45::obj-19::obj-188" : [ "score_1_max_continuity", "score_1_max_continuity", 0 ],
 			"obj-65::obj-45::obj-19::obj-19" : [ "score_1_speed_4", "score_1_speed_4", 0 ],
 			"obj-65::obj-45::obj-19::obj-20" : [ "score_1_loop_1", "score_1_loop_1", 0 ],
 			"obj-65::obj-45::obj-19::obj-22" : [ "score_2_transpose_pitch[15]", "score_1_transpose_pitch", 0 ],
-			"obj-65::obj-45::obj-19::obj-26" : [ "score_1_octave_up", "score_1_octave_up", 0 ],
 			"obj-65::obj-45::obj-19::obj-27" : [ "score_1_loop_2", "score_1_loop_2", 0 ],
 			"obj-65::obj-45::obj-19::obj-28" : [ "score_1_loop_3", "score_1_loop_3", 0 ],
 			"obj-65::obj-45::obj-19::obj-29" : [ "score_1_loop_4", "score_1_loop_4", 0 ],
 			"obj-65::obj-45::obj-19::obj-30" : [ "score_1_loop_5", "score_1_loop_5", 0 ],
-			"obj-65::obj-45::obj-19::obj-34" : [ "score_1_octave_down", "score_1_octave_down", 0 ],
 			"obj-65::obj-45::obj-19::obj-36" : [ "score_1_loop_6", "score_1_loop_6", 0 ],
 			"obj-65::obj-45::obj-19::obj-37" : [ "score_1_loop_7", "score_1_loop_7", 0 ],
-			"obj-65::obj-45::obj-19::obj-38" : [ "score_1_reset_octave", "score_1_reset_octave", 0 ],
+			"obj-65::obj-45::obj-19::obj-38" : [ "score_1_reset_pitch", "toggle", 0 ],
 			"obj-65::obj-45::obj-19::obj-39" : [ "score_1_loop_8", "score_1_loop_8", 0 ],
+			"obj-65::obj-45::obj-19::obj-44" : [ "score_1_pitch_down", "toggle[1]", 0 ],
+			"obj-65::obj-45::obj-19::obj-51" : [ "score_1_pitch_up", "toggle[2]", 0 ],
+			"obj-65::obj-45::obj-19::obj-52" : [ "score_1_octave_up", "score_1_octave_up[2]", 0 ],
+			"obj-65::obj-45::obj-19::obj-53" : [ "score_1_octave_down", "score_1_octave_down", 0 ],
 			"obj-65::obj-45::obj-19::obj-58" : [ "score_1_improvise", "score_1_improvise", 0 ],
+			"obj-65::obj-45::obj-19::obj-69" : [ "score_1_reset_octave[1]", "score_1_reset_octave[1]", 0 ],
 			"obj-65::obj-45::obj-19::obj-71" : [ "score_1_pitch_range", "score_1_pitch_range", 0 ],
 			"obj-65::obj-45::obj-23::obj-18" : [ "midi_2_active", "midi_2_repetition_unmute", 0 ],
 			"obj-65::obj-45::obj-2::obj-14" : [ "midi_track_10_speed_2", "score_1_speed_2", 0 ],
