@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 797.0, 113.0, 927.0, 964.0 ],
+		"rect" : [ 767.0, 113.0, 927.0, 964.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1398,7 +1398,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 46.0, 100.0, 1706.0, 983.0 ],
+						"rect" : [ 381.0, 427.0, 1660.0, 983.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1426,7 +1426,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-62",
@@ -2316,7 +2315,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 32.0, 232.0, 190.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"text" : "pv #0_SCORE_DICT_TO_LOAD"
 								}
 
@@ -2690,7 +2688,6 @@
 														"style" : "",
 														"subpatcher_template" : "",
 														"assistshowspatchername" : 0,
-														"visible" : 1,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-3",
@@ -3637,7 +3634,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 859.0, 407.0, 956.0, 937.0 ],
+						"rect" : [ 738.0, 146.0, 956.0, 937.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3665,7 +3662,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-12",
@@ -3794,7 +3790,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 544.0, 711.0, 68.0, 22.0 ],
+					"patching_rect" : [ 544.0, 701.0, 68.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",

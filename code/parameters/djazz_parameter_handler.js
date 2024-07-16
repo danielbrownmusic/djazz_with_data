@@ -14,25 +14,6 @@ if (jsarguments.length > 1)
 }
 
 
-//------------------------------------------------------------------------------------------
-
-
-/* function bang()
-{
-    pip_.getnames().forEach(
-        function (param_name)
-        {
-            param_listeners_.push(new ParameterListener(param_name, on_param_changed));            
-        }
-    );
-}
-
-function loadbang()
-{
-    bang();
-}
- */
-
 function on_pip_changed(data)
 {
     if (data.added.length)
