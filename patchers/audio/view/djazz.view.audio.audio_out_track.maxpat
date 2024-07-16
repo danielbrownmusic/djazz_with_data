@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
+			"minor" : 6,
 			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -143,8 +143,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 622.0, 363.0, 24.0, 24.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_linknames" : 1,
+							"parameter_longname" : "audio_out_#1_unmute",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "audio_out_#1_unmute",
+							"parameter_type" : 2
+						}
+
+					}
+,
 					"varname" : "audio_out_#1_unmute"
 				}
 
@@ -371,7 +384,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
+							"minor" : 6,
 							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -607,7 +620,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 628.0, 206.0, 18.0, 20.0 ],
+					"patching_rect" : [ 628.0, 204.0, 18.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.5, 27.0, 19.0, 20.0 ],
 					"text" : "M",
@@ -637,6 +650,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "audio_out_#1_mute",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "led",
 							"parameter_type" : 2
 						}
@@ -669,6 +683,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "audio_out_#1_solo",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "led[1]",
 							"parameter_type" : 2
 						}
@@ -822,8 +837,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 631.5, 514.0, 597.5, 514.0, 597.5, 195.0, 637.5, 195.0 ],
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 631.5, 514.0, 597.5, 514.0, 597.5, 195.0, 631.5, 195.0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -881,6 +896,7 @@
 		"parameters" : 		{
 			"obj-1" : [ "audio_out_#1_solo", "led[1]", 0 ],
 			"obj-2" : [ "audio_out_#1_mute", "led", 0 ],
+			"obj-41" : [ "audio_out_#1_unmute", "audio_out_#1_unmute", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,

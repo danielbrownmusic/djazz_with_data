@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 5,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 578.0, 223.0, 1194.0, 939.0 ],
+		"rect" : [ 877.0, 204.0, 1194.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -89,6 +89,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -125,13 +126,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"linecount" : 4,
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1031.0, 247.0, 50.0, 62.0 ],
-					"text" : "dictionary u119037476"
+					"patching_rect" : [ 1081.0, 99.0, 50.0, 102.0 ],
+					"text" : "dictionary AUDIO_IN_BEAT_LIST_DICT_NAME"
 				}
 
 			}
@@ -209,6 +210,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -379,6 +381,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
+					"order" : 1,
 					"source" : [ "obj-24", 1 ]
 				}
 
@@ -387,6 +390,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 1 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 0,
+					"source" : [ "obj-24", 1 ]
 				}
 
 			}
