@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -2141.0, 90.0, 1662.0, 1017.0 ],
+		"rect" : [ 256.0, 187.0, 1183.0, 1017.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,31 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"bgoncolor" : [ 0.215686274509804, 0.215686274509804, 0.215686274509804, 1.0 ],
-					"fontname" : "Webdings",
-					"fontsize" : 14.0,
-					"id" : "obj-12",
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1358.0, 295.0, 33.82440500000007, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 110.5, 15.0, 22.0, 22.0 ],
-					"text" : "5",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"texton" : "5",
-					"textoncolor" : [ 1.0, 0.784313725490196, 0.498039215686275, 1.0 ],
-					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "toggle",
@@ -215,7 +190,6 @@
 				"box" : 				{
 					"bgoncolor" : [ 0.215686274509804, 0.215686274509804, 0.215686274509804, 1.0 ],
 					"id" : "obj-64",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -225,12 +199,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 209.0, 0.0, 22.0, 22.0 ],
 					"text" : "0",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "0",
-					"textoncolor" : [ 1.0, 0.784313725490196, 0.498039215686275, 1.0 ],
+					"textoncolor" : [ 0.925490196078431, 0.905882352941176, 0.87843137254902, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
+					"usebgoncolor" : 1
 				}
 
 			}
@@ -296,7 +269,6 @@
 					"fontname" : "Webdings",
 					"fontsize" : 14.0,
 					"id" : "obj-47",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -306,12 +278,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 233.0, 0.0, 22.0, 22.0 ],
 					"text" : "5",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "5",
-					"textoncolor" : [ 1.0, 0.784313725490196, 0.498039215686275, 1.0 ],
+					"textoncolor" : [ 0.925490196078431, 0.905882352941176, 0.87843137254902, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
+					"usebgoncolor" : 1
 				}
 
 			}
@@ -345,7 +316,6 @@
 					"fontname" : "Webdings",
 					"fontsize" : 14.0,
 					"id" : "obj-40",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -355,12 +325,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 186.0, 0.0, 22.0, 22.0 ],
 					"text" : "5",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "5",
-					"textoncolor" : [ 1.0, 0.784313725490196, 0.498039215686275, 1.0 ],
+					"textoncolor" : [ 0.925490196078431, 0.905882352941176, 0.87843137254902, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
+					"usebgoncolor" : 1
 				}
 
 			}
@@ -1543,7 +1512,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"bgoncolor" : [ 0.215686274509804, 0.215686274509804, 0.215686274509804, 1.0 ],
 					"fontsize" : 10.0,
 					"id" : "obj-181",
 					"legacytextcolor" : 1,
@@ -1767,7 +1736,6 @@
 				"box" : 				{
 					"bgoncolor" : [ 0.215686274509804, 0.215686274509804, 0.215686274509804, 1.0 ],
 					"id" : "obj-149",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1777,12 +1745,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 119.25, 0.0, 22.0, 22.0 ],
 					"text" : "0",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "0",
-					"textoncolor" : [ 1.0, 0.784313725490196, 0.498039215686275, 1.0 ],
+					"textoncolor" : [ 0.925490196078431, 0.905882352941176, 0.87843137254902, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
+					"usebgoncolor" : 1
 				}
 
 			}
@@ -1792,7 +1759,6 @@
 					"fontname" : "Webdings",
 					"fontsize" : 14.0,
 					"id" : "obj-150",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1802,12 +1768,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 143.0, 0.0, 22.0, 22.0 ],
 					"text" : "6",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "6",
-					"textoncolor" : [ 1.0, 0.784313725490196, 0.498039215686275, 1.0 ],
+					"textoncolor" : [ 0.925490196078431, 0.905882352941176, 0.87843137254902, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
+					"usebgoncolor" : 1
 				}
 
 			}
@@ -1817,7 +1782,6 @@
 					"fontname" : "Webdings",
 					"fontsize" : 14.0,
 					"id" : "obj-151",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1827,12 +1791,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 95.5, 0.0, 22.0, 22.0 ],
 					"text" : "5",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "5",
-					"textoncolor" : [ 1.0, 0.784313725490196, 0.498039215686275, 1.0 ],
+					"textoncolor" : [ 0.925490196078431, 0.905882352941176, 0.87843137254902, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
+					"usebgoncolor" : 1
 				}
 
 			}
@@ -4321,7 +4284,6 @@
 					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-39",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -4347,12 +4309,11 @@
 					}
 ,
 					"text" : "8",
-					"textcolor" : [ 1.0, 0.980392156862745, 0.980392156862745, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "8",
 					"textoncolor" : [ 1.0, 0.63921568627451, 0.149019607843137, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "#1_loop_8"
 				}
 
@@ -4362,7 +4323,6 @@
 					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-37",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -4388,12 +4348,11 @@
 					}
 ,
 					"text" : "7",
-					"textcolor" : [ 1.0, 0.980392156862745, 0.980392156862745, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "7",
 					"textoncolor" : [ 1.0, 0.63921568627451, 0.149019607843137, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "#1_loop_7"
 				}
 
@@ -4403,7 +4362,6 @@
 					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-36",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -4429,12 +4387,11 @@
 					}
 ,
 					"text" : "6",
-					"textcolor" : [ 1.0, 0.980392156862745, 0.980392156862745, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "6",
 					"textoncolor" : [ 1.0, 0.63921568627451, 0.149019607843137, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "#1_loop_6"
 				}
 
@@ -4444,7 +4401,6 @@
 					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-30",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -4470,12 +4426,11 @@
 					}
 ,
 					"text" : "5",
-					"textcolor" : [ 1.0, 0.980392156862745, 0.980392156862745, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "5",
 					"textoncolor" : [ 1.0, 0.63921568627451, 0.149019607843137, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "#1_loop_5"
 				}
 
@@ -4485,7 +4440,6 @@
 					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-29",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -4511,12 +4465,11 @@
 					}
 ,
 					"text" : "4",
-					"textcolor" : [ 1.0, 0.980392156862745, 0.980392156862745, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "4",
 					"textoncolor" : [ 1.0, 0.63921568627451, 0.149019607843137, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "#1_loop_4"
 				}
 
@@ -4526,7 +4479,6 @@
 					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-28",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -4552,12 +4504,11 @@
 					}
 ,
 					"text" : "3",
-					"textcolor" : [ 1.0, 0.980392156862745, 0.980392156862745, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "3",
 					"textoncolor" : [ 1.0, 0.63921568627451, 0.149019607843137, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "#1_loop_3"
 				}
 
@@ -4567,7 +4518,6 @@
 					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-27",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -4593,12 +4543,11 @@
 					}
 ,
 					"text" : "2",
-					"textcolor" : [ 1.0, 0.980392156862745, 0.980392156862745, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "2",
 					"textoncolor" : [ 1.0, 0.63921568627451, 0.149019607843137, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "#1_loop_2"
 				}
 
@@ -4608,7 +4557,6 @@
 					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-20",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -4634,12 +4582,11 @@
 					}
 ,
 					"text" : "1",
-					"textcolor" : [ 1.0, 0.980392156862745, 0.980392156862745, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "1",
 					"textoncolor" : [ 1.0, 0.63921568627451, 0.149019607843137, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "#1_loop_1"
 				}
 
@@ -4649,7 +4596,6 @@
 					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-19",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -4675,12 +4621,11 @@
 					}
 ,
 					"text" : "4",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "4",
 					"textoncolor" : [ 1.0, 0.63921568627451, 0.149019607843137, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "#1_speed_4"
 				}
 
@@ -4690,7 +4635,6 @@
 					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 10.0,
 					"id" : "obj-17",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -4716,12 +4660,11 @@
 					}
 ,
 					"text" : "3/2",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "3/2",
 					"textoncolor" : [ 1.0, 0.63921568627451, 0.149019607843137, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "#1_speed_3/2"
 				}
 
@@ -4731,7 +4674,6 @@
 					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 10.0,
 					"id" : "obj-15",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -4757,12 +4699,11 @@
 					}
 ,
 					"text" : "1/2",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "1/2",
 					"textoncolor" : [ 1.0, 0.63921568627451, 0.149019607843137, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "#1_speed_1/2"
 				}
 
@@ -4772,7 +4713,6 @@
 					"bgoncolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-14",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -4798,12 +4738,11 @@
 					}
 ,
 					"text" : "2",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "2",
 					"textoncolor" : [ 1.0, 0.63921568627451, 0.149019607843137, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "#1_speed_2"
 				}
 
@@ -5574,7 +5513,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"bgcolor" : [ 0.407843137254902, 0.407843137254902, 0.407843137254902, 1.0 ],
 					"bgoncolor" : [ 1.0, 0.576470588235294, 0.0, 1.0 ],
 					"id" : "obj-49",
 					"ignoreclick" : 1,
