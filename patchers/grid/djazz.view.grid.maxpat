@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 597.0, 126.0, 992.0, 867.0 ],
+		"rect" : [ 597.0, 126.0, 576.0, 867.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "bang if bar has been mouse clicked",
+					"id" : "obj-4",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 69.5, 597.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -61,8 +73,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -212,6 +224,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "grid_loop_chapter",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "grid_loop_chapter",
 							"parameter_type" : 2
 						}
@@ -255,8 +268,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -530,8 +543,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -874,7 +887,7 @@
 			}
 , 			{
 				"box" : 				{
-					"htabcolor" : [ 0.082352941176471, 0.501960784313725, 0.529411764705882, 1.0 ],
+					"htabcolor" : [ 0.082247, 0.501861, 0.528635, 1.0 ],
 					"id" : "obj-14",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -890,6 +903,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "grid_bar",
 							"parameter_mmax" : 31,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "grid_bar",
 							"parameter_type" : 2
 						}
@@ -922,6 +936,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "grid_chapter",
 							"parameter_mmax" : 6,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "grid_chapter",
 							"parameter_type" : 2
 						}
@@ -952,6 +967,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 2 ],
 					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -1055,7 +1077,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "djazz_range.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/tools/iterators",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/iterators",
 				"patcherrelativepath" : "../tools/iterators",
 				"type" : "JSON",
 				"implicit" : 1

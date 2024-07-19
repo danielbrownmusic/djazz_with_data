@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 82.0, 427.0, 574.0, 484.0 ],
+		"rect" : [ 839.0, 470.0, 310.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,38 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 135.0, 216.0, 22.0 ],
-					"text" : "djazz_udp_send_translate_parameters"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
-					"id" : "obj-23",
+					"id" : "obj-6",
 					"index" : 1,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 21.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 249.0, 135.0, 48.0, 22.0 ],
-					"text" : "host $1"
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 101.0, 250.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -82,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.0, 135.0, 46.0, 22.0 ],
+					"patching_rect" : [ 173.0, 92.0, 46.0, 22.0 ],
 					"text" : "port $1"
 				}
 
@@ -94,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 322.0, 55.0, 57.0, 22.0 ],
+					"patching_rect" : [ 174.0, 12.0, 57.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 6400 ],
 						"parameter_enable" : 0,
@@ -108,33 +83,14 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 249.0, 55.0, 59.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"initial" : [ "127.0.0.1" ],
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr host",
-					"varname" : "host"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.0, 21.0, 30.0, 30.0 ]
+					"patching_rect" : [ 27.0, 12.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -145,7 +101,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 72.0, 88.0, 53.0, 22.0 ],
+					"patching_rect" : [ 27.0, 79.0, 53.0, 22.0 ],
 					"text" : "pattrhub"
 				}
 
@@ -155,25 +111,18 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 250.0, 138.0, 22.0 ],
-					"text" : "udpsend 127.0.0.1 7400"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 101.0, 184.0, 151.0, 22.0 ],
+					"text" : "udpreceive 127.0.0.1 7400"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 258.5, 201.0, 27.5, 201.0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-23", 0 ]
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
@@ -181,13 +130,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -201,14 +143,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 330.5, 201.5, 27.5, 201.5 ],
+					"midpoints" : [ 182.5, 158.5, 110.5, 158.5 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
