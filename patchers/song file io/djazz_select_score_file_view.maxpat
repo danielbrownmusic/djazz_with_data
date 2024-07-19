@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 334.0, 220.0, 1080.0, 766.0 ],
+		"rect" : [ 201.0, 226.0, 791.0, 766.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,30 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-24",
+					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 735.0, 546.0, 67.0, 22.0 ],
-					"text" : "opendialog"
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 566.0, 186.0, 22.0, 22.0 ],
+					"text" : "t b"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"handoff" : "",
-					"hilite" : 0,
-					"hltcolor" : [ 1.0, 0.576470588235294, 0.0, 0.58 ],
-					"id" : "obj-4",
-					"maxclass" : "ubutton",
+					"id" : "obj-2",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 735.0, 481.0, 39.0, 34.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 357.25, -4.0, 30.0, 30.0 ]
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 566.0, 385.5, 29.0, 22.0 ],
+					"text" : "thru"
 				}
 
 			}
@@ -71,7 +66,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-37",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -127,8 +122,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -177,6 +172,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
+									"int" : 1,
 									"maxclass" : "gswitch",
 									"numinlets" : 3,
 									"numoutlets" : 1,
@@ -351,8 +347,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -503,11 +499,11 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 566.0, 112.0, 58.0, 22.0 ],
-					"text" : "route last"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 566.0, 112.0, 208.0, 22.0 ],
+					"text" : "routepass last prev next"
 				}
 
 			}
@@ -533,7 +529,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 566.0, 287.5, 58.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 307.25, 0.0, 35.0, 22.0 ],
+					"presentation_rect" : [ 461.0, 0.0, 35.0, 22.0 ],
 					"text" : "Last",
 					"texton" : "Last"
 				}
@@ -543,7 +539,7 @@
 				"box" : 				{
 					"comment" : "(symbol) full path of chosen score file; \"clear\" if cleared",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -580,7 +576,7 @@
 				"box" : 				{
 					"comment" : "(symbol) full path of song folder",
 					"id" : "obj-21",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -605,14 +601,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"items" : "<empty>",
+					"items" : [ "grid", ",", "new", ",", "new2", ",", "new2012", ",", "realtime" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 174.0, 287.5, 208.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_16_track_fix_score_dict/djazz_user/scores/AllOfMe//AllOfMe.json",
+					"prefix" : "~/Documents/Max 8/Projects/djazz_with_data/djazz_user/scores/AutumnleavesDoMin/",
 					"types" : "fold",
 					"varname" : "umenu"
 				}
@@ -629,27 +625,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 268.5, 481.0, 208.0, 22.0 ],
 					"pattrmode" : 1,
-					"prefix" : "~/Documents/Max 8/Projects/djazz_db/user/scores/AutumnleavesDoMin/grid",
+					"prefix" : "~/Documents/Max 8/Projects/djazz_with_data/djazz_user/scores/AutumnleavesDoMin/new/",
 					"presentation" : 1,
-					"presentation_rect" : [ 41.25, 0.0, 263.0, 22.0 ],
+					"presentation_rect" : [ 41.25, 0.0, 413.0, 22.0 ],
 					"types" : "TEXT",
 					"varname" : "umenu[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autofit" : 1,
-					"background" : 1,
-					"id" : "obj-7",
-					"maxclass" : "fpic",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 707.0, 481.0, 35.0, 34.0 ],
-					"pic" : "song_folder.png",
-					"presentation" : 1,
-					"presentation_rect" : [ 357.25, -4.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -722,6 +702,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 575.5, 446.5, 278.0, 446.5 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"order" : 1,
 					"source" : [ "obj-21", 0 ]
@@ -741,14 +729,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 744.5, 604.5, 40.5, 604.5 ],
-					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -819,36 +799,42 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-4", 0 ]
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 701.5, 368.25, 575.5, 368.25 ],
+					"source" : [ "obj-6", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 638.5, 368.25, 575.5, 368.25 ],
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 575.5, 446.5, 278.0, 446.5 ],
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "song_folder.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
-				"patcherrelativepath" : "../../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 202.0, 295.0, 1097.0, 412.0 ],
+		"rect" : [ 202.0, 295.0, 1312.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -118,7 +118,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 705.504528284072876, 594.495363235473633, 24.0, 24.0 ],
+					"patching_rect" : [ 707.339390516281128, 602.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 514.678856134414673, 13.640137746930122, 24.0, 24.0 ]
 				}
@@ -4298,56 +4298,56 @@
 		"dependency_cache" : [ 			{
 				"name" : "darr.get_at.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict",
-				"patcherrelativepath" : "../tools/dict",
+				"patcherrelativepath" : "../../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "darr.set_at.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict",
-				"patcherrelativepath" : "../tools/dict",
+				"patcherrelativepath" : "../../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.make_beat_list.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/data_file_makers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/data_file_conversion_tools/convert_midi_files_to_json/utils",
+				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.make_multiple_tracks.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/data_file_makers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/data_file_conversion_tools/convert_midi_files_to_json/utils",
+				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.make_single_track.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/data_file_makers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/data_file_conversion_tools/convert_midi_files_to_json/utils",
+				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz_tempo_to_ms.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/conversion",
-				"patcherrelativepath" : "../tools/conversion",
+				"patcherrelativepath" : "../../tools/conversion",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.get_subdict.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict",
-				"patcherrelativepath" : "../tools/dict",
+				"patcherrelativepath" : "../../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "du.name_to_obj.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/dict/nested",
-				"patcherrelativepath" : "../tools/dict/nested",
+				"patcherrelativepath" : "../../tools/dict/nested",
 				"type" : "JSON",
 				"implicit" : 1
 			}

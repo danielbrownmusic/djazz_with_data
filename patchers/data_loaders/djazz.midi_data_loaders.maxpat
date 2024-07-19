@@ -1398,7 +1398,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 381.0, 427.0, 1660.0, 983.0 ],
+						"rect" : [ 34.0, 100.0, 1660.0, 983.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1832,7 +1832,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 471.0, 548.0, 153.0, 22.0 ],
-									"text" : "3 4 6 7 8 9 10 11 12 13 14"
+									"text" : "8 9 10 11 12"
 								}
 
 							}
@@ -2242,7 +2242,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 475.0, 588.0, 153.0, 22.0 ],
-									"text" : "3 4 6 7 8 9 10 11 12 13 14"
+									"text" : "3 6 7"
 								}
 
 							}
@@ -3680,7 +3680,7 @@
 									"maxclass" : "dict.view",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 530.0, 164.0, 180.0, 457.0 ]
+									"patching_rect" : [ 530.0, 164.0, 420.0, 585.0 ]
 								}
 
 							}
@@ -3725,7 +3725,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 258.0, 100.0, 149.0, 22.0 ],
+									"patching_rect" : [ 258.0, 100.0, 155.0, 22.0 ],
 									"text" : "pv #0_SCORE_DICT_2"
 								}
 
@@ -3737,7 +3737,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 149.0, 22.0 ],
+									"patching_rect" : [ 50.0, 100.0, 155.0, 22.0 ],
 									"text" : "pv #0_SCORE_DICT_1"
 								}
 

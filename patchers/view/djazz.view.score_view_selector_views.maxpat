@@ -133,7 +133,7 @@
 					"outlettype" : [ "NONE" ],
 					"patching_rect" : [ 34.0, 137.0, 386.0, 24.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 100.0, 390.0, 25.0 ],
+					"presentation_rect" : [ 20.0, 100.0, 533.0, 25.0 ],
 					"varname" : "file_selector",
 					"viewvisibility" : 1
 				}
@@ -226,6 +226,12 @@
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/media",
 				"patcherrelativepath" : "../../media",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

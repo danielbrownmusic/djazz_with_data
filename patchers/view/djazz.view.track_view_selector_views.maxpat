@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -106,7 +106,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 34.0, 137.0, 370.0, 24.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 100.0, 373.0, 26.0 ],
+					"presentation_rect" : [ 20.0, 100.0, 533.0, 26.0 ],
 					"varname" : "file_selector",
 					"viewvisibility" : 1
 				}
@@ -161,28 +161,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "djazz.view.beat_clock.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/view",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view.select_track_file.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/song file io",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/song file io",
 				"patcherrelativepath" : "../song file io",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.view.track_information.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/view",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/view",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "song_folder.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/media",
 				"patcherrelativepath" : "../../media",
 				"type" : "PNG",
 				"implicit" : 1

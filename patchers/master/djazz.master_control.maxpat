@@ -152,8 +152,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 152.5, 148.0, 72.0, 22.0 ],
-									"text" : "start_beat 0"
+									"patching_rect" : [ 152.5, 148.0, 76.0, 22.0 ],
+									"text" : "start_beat -1"
 								}
 
 							}
@@ -164,8 +164,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 323.5, 148.0, 42.0, 22.0 ],
-									"text" : "beat 0"
+									"patching_rect" : [ 323.5, 148.0, 46.0, 22.0 ],
+									"text" : "beat -1"
 								}
 
 							}

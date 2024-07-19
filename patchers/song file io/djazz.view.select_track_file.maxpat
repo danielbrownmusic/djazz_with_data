@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "dropfile",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 231.0, 177.0, 33.0, 42.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -0.25, -2.0, 33.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -70,9 +83,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 169.0, 155.0, 100.0, 20.0 ],
+					"patching_rect" : [ 126.0, 143.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 309.25, 0.0, 59.0, 20.0 ],
+					"presentation_rect" : [ 419.0, 0.0, 59.0, 20.0 ],
 					"text" : "Browse",
 					"texton" : "Browse"
 				}
@@ -87,23 +100,6 @@
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 107.0, 220.0, 67.0, 22.0 ],
 					"text" : "opendialog"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
-					"hilite" : 0,
-					"hltcolor" : [ 1.0, 0.576470588235294, 0.0, 0.0 ],
-					"id" : "obj-4",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 107.0, 155.0, 39.0, 34.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 34.0, 0.0, 269.0, 20.0 ]
 				}
 
 			}
@@ -128,7 +124,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 79.0, 155.0, 35.0, 34.0 ],
+					"patching_rect" : [ 281.0, 172.0, 35.0, 34.0 ],
 					"pic" : "song_folder.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 1.25, -3.0, 30.0, 25.0 ]
@@ -145,7 +141,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 196.0, 404.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 34.0, 0.0, 269.0, 20.0 ],
+					"presentation_rect" : [ 34.0, 0.0, 379.0, 20.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -155,6 +151,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -176,13 +188,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -198,7 +203,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "song_folder.png",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/media",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/media",
 				"patcherrelativepath" : "../../media",
 				"type" : "PNG",
 				"implicit" : 1
