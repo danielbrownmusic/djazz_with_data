@@ -79,7 +79,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 427.666664000000026, 427.5, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.327753538378403, 3.2, 120.0, 23.0 ]
+					"presentation_rect" : [ 47.0, 8.0, 120.0, 23.0 ]
 				}
 
 			}
@@ -110,7 +110,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 362.666664000000083, 349.5, 40.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.599978, 3.2, 37.0, 22.0 ],
+					"presentation_rect" : [ 5.0, 8.0, 37.0, 22.0 ],
 					"text" : "O",
 					"textcolor" : [ 0.725490196078431, 0.725490196078431, 0.725490196078431, 1.0 ],
 					"texton" : "O",
@@ -131,7 +131,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 378.666664000000083, 104.0, 40.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 173.055529076756784, 3.200000405311584, 37.0, 22.0 ],
+					"presentation_rect" : [ 173.0, 8.0, 37.0, 22.0 ],
 					"text" : "7",
 					"textcolor" : [ 0.725490196078431, 0.725490196078431, 0.725490196078431, 1.0 ],
 					"texton" : "7",
@@ -159,7 +159,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 546.0, 78.0, 69.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.783304615135194, 4.200000405311584, 67.0, 20.0 ],
+					"presentation_rect" : [ 217.0, 9.0, 67.0, 20.0 ],
 					"text" : "CHANNEL"
 				}
 
@@ -664,7 +664,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 248.066680029575309, 487.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 439.099968056888599, 3.200000405311584, 56.500009999999975, 22.0 ],
+					"presentation_rect" : [ 439.0, 8.0, 56.500009999999975, 22.0 ],
 					"text" : "60 0 1"
 				}
 
@@ -680,7 +680,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 644.700013220310211, 218.310997355922723, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 333.37219251851019, 3.200000405311584, 100.0, 22.0 ]
+					"presentation_rect" : [ 333.0, 8.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -792,7 +792,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 555.0, 154.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.511080153513603, 3.200000405311584, 39.133336826618176, 22.0 ]
+					"presentation_rect" : [ 289.0, 8.0, 39.133336826618176, 22.0 ]
 				}
 
 			}
@@ -807,7 +807,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 196.166664019767779, 219.33740234375, 420.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.599978056888631, 28.5, 490.0, 60.0 ],
+					"presentation_rect" : [ 5.0, 40.0, 490.0, 60.0 ],
 					"range" : 60
 				}
 

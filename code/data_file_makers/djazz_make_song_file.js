@@ -21,7 +21,7 @@ function make_song_file()
 	post (chapter_start_measures);
 	post (chapter_start_measures.length);
 	
-	var chapter_start_beats  = chapter_start_measures.map(function(x) { return x / beats_per_measure; }) 
+	var chapter_start_beats  = chapter_start_measures.map(function(x) { return x * beats_per_measure; }) 
 
 	//chapter_start_beats 	= chapter_start_beats.map(function(x) { return x + 1; }) 
 	//chapter_start_measures 	= chapter_start_measures.map(function(x) { return x + 1; }) 
