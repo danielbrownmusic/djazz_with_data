@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 293.0, 154.0, 1107.0, 524.0 ],
+		"rect" : [ 115.0, 176.0, 1107.0, 524.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -449,8 +449,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 940.0, 366.0, 154.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 766.75, 32.0, 317.0, 24.0 ],
-					"text" : "1"
+					"presentation_rect" : [ 766.75, 32.0, 317.0, 24.0 ]
 				}
 
 			}
@@ -493,8 +492,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 299.0, 366.0, 174.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.5, 32.0, 367.0, 24.0 ],
-					"text" : "Jabeau"
+					"presentation_rect" : [ 97.5, 32.0, 367.0, 24.0 ]
 				}
 
 			}
@@ -2305,7 +2303,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1420.0, 52.0, 68.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 62.0, 75.0, 44.0 ],
+					"presentation_rect" : [ 5.0, 67.0, 75.0, 44.0 ],
 					"text" : "clear",
 					"texton" : "clear"
 				}
@@ -2326,7 +2324,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"linecount" : 8,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -2334,9 +2331,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1144.0, 356.0, 143.0, 34.666664838790894 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 97.5, 106.0, 986.0, 296.0 ],
-					"text" : "(g m7 3) (g m7 3) (bb 7 3) (bb 7 3) (eb maj7 3) (eb maj7 3) (d 7 3) (d 7 3)\n                        (g m7 3) (g m7 3) (bb 7 3) (bb 7 3) (eb maj7 3) (eb maj7 3) (d 7 3) (d 7 3)"
+					"presentation_rect" : [ 97.5, 106.0, 986.0, 296.0 ]
 				}
 
 			}

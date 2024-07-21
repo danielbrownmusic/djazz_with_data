@@ -11,8 +11,8 @@
 		"0" : 		{
 			"min_measure" : 0,
 			"max_measure" : 16,
-			"min_beat" : 0.0,
-			"max_beat" : 5.333333333333333
+			"min_beat" : 0,
+			"max_beat" : 48
 		}
 
 	}
@@ -134,6 +134,258 @@
 		"5" : 		{
 			"chapter" : 0,
 			"measure" : 1,
+			"position" : 2
+		}
+,
+		"6" : 		{
+			"chapter" : 0,
+			"measure" : 2,
+			"position" : 0
+		}
+,
+		"7" : 		{
+			"chapter" : 0,
+			"measure" : 2,
+			"position" : 1
+		}
+,
+		"8" : 		{
+			"chapter" : 0,
+			"measure" : 2,
+			"position" : 2
+		}
+,
+		"9" : 		{
+			"chapter" : 0,
+			"measure" : 3,
+			"position" : 0
+		}
+,
+		"10" : 		{
+			"chapter" : 0,
+			"measure" : 3,
+			"position" : 1
+		}
+,
+		"11" : 		{
+			"chapter" : 0,
+			"measure" : 3,
+			"position" : 2
+		}
+,
+		"12" : 		{
+			"chapter" : 0,
+			"measure" : 4,
+			"position" : 0
+		}
+,
+		"13" : 		{
+			"chapter" : 0,
+			"measure" : 4,
+			"position" : 1
+		}
+,
+		"14" : 		{
+			"chapter" : 0,
+			"measure" : 4,
+			"position" : 2
+		}
+,
+		"15" : 		{
+			"chapter" : 0,
+			"measure" : 5,
+			"position" : 0
+		}
+,
+		"16" : 		{
+			"chapter" : 0,
+			"measure" : 5,
+			"position" : 1
+		}
+,
+		"17" : 		{
+			"chapter" : 0,
+			"measure" : 5,
+			"position" : 2
+		}
+,
+		"18" : 		{
+			"chapter" : 0,
+			"measure" : 6,
+			"position" : 0
+		}
+,
+		"19" : 		{
+			"chapter" : 0,
+			"measure" : 6,
+			"position" : 1
+		}
+,
+		"20" : 		{
+			"chapter" : 0,
+			"measure" : 6,
+			"position" : 2
+		}
+,
+		"21" : 		{
+			"chapter" : 0,
+			"measure" : 7,
+			"position" : 0
+		}
+,
+		"22" : 		{
+			"chapter" : 0,
+			"measure" : 7,
+			"position" : 1
+		}
+,
+		"23" : 		{
+			"chapter" : 0,
+			"measure" : 7,
+			"position" : 2
+		}
+,
+		"24" : 		{
+			"chapter" : 0,
+			"measure" : 8,
+			"position" : 0
+		}
+,
+		"25" : 		{
+			"chapter" : 0,
+			"measure" : 8,
+			"position" : 1
+		}
+,
+		"26" : 		{
+			"chapter" : 0,
+			"measure" : 8,
+			"position" : 2
+		}
+,
+		"27" : 		{
+			"chapter" : 0,
+			"measure" : 9,
+			"position" : 0
+		}
+,
+		"28" : 		{
+			"chapter" : 0,
+			"measure" : 9,
+			"position" : 1
+		}
+,
+		"29" : 		{
+			"chapter" : 0,
+			"measure" : 9,
+			"position" : 2
+		}
+,
+		"30" : 		{
+			"chapter" : 0,
+			"measure" : 10,
+			"position" : 0
+		}
+,
+		"31" : 		{
+			"chapter" : 0,
+			"measure" : 10,
+			"position" : 1
+		}
+,
+		"32" : 		{
+			"chapter" : 0,
+			"measure" : 10,
+			"position" : 2
+		}
+,
+		"33" : 		{
+			"chapter" : 0,
+			"measure" : 11,
+			"position" : 0
+		}
+,
+		"34" : 		{
+			"chapter" : 0,
+			"measure" : 11,
+			"position" : 1
+		}
+,
+		"35" : 		{
+			"chapter" : 0,
+			"measure" : 11,
+			"position" : 2
+		}
+,
+		"36" : 		{
+			"chapter" : 0,
+			"measure" : 12,
+			"position" : 0
+		}
+,
+		"37" : 		{
+			"chapter" : 0,
+			"measure" : 12,
+			"position" : 1
+		}
+,
+		"38" : 		{
+			"chapter" : 0,
+			"measure" : 12,
+			"position" : 2
+		}
+,
+		"39" : 		{
+			"chapter" : 0,
+			"measure" : 13,
+			"position" : 0
+		}
+,
+		"40" : 		{
+			"chapter" : 0,
+			"measure" : 13,
+			"position" : 1
+		}
+,
+		"41" : 		{
+			"chapter" : 0,
+			"measure" : 13,
+			"position" : 2
+		}
+,
+		"42" : 		{
+			"chapter" : 0,
+			"measure" : 14,
+			"position" : 0
+		}
+,
+		"43" : 		{
+			"chapter" : 0,
+			"measure" : 14,
+			"position" : 1
+		}
+,
+		"44" : 		{
+			"chapter" : 0,
+			"measure" : 14,
+			"position" : 2
+		}
+,
+		"45" : 		{
+			"chapter" : 0,
+			"measure" : 15,
+			"position" : 0
+		}
+,
+		"46" : 		{
+			"chapter" : 0,
+			"measure" : 15,
+			"position" : 1
+		}
+,
+		"47" : 		{
+			"chapter" : 0,
+			"measure" : 15,
 			"position" : 2
 		}
 
