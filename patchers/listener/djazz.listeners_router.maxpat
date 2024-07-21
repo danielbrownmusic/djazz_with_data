@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 36.0, 100.0, 577.0, 940.0 ],
+		"rect" : [ 36.0, 100.0, 1428.0, 940.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -77,7 +77,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1025.0, 291.0, 376.0, 33.0 ],
+					"patching_rect" : [ 820.0, 267.0, 376.0, 33.0 ],
 					"text" : "MASTER goes in inlet[0] and goes out all out[0] - out[14]: 0 0 1 1 0 1 2 0 1 3 0 1"
 				}
 
@@ -86,13 +86,13 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 16.0,
+					"fontsize" : 12.0,
 					"id" : "obj-26",
 					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 661.400000000021919, 336.0, 662.0, 141.0 ],
+					"patching_rect" : [ 820.0, 309.0, 499.0, 107.0 ],
 					"text" : "< out[0], in[0] >       < out[0], in[1] >       < out[0], in[2] >       ...    < out[0], in[n-1] >    \n< out[1], in[0] >       < out[1], in[1] >       < out[1], in[2] >       ...    < out[0], in[n-1] >\n< out[2], in[0] >       < out[2], in[1] >       < out[2], in[2] >       ...    < out[0], in[n-1] >\n                                      .\n                                      .\n                                      .\n< out[n-1], in[0] >    < out[n-1], in[1] >    < out[n-1], in[2] >    ...    < out[n-1], in[n-1] >"
 				}
 
@@ -142,8 +142,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 533.533333333352971, 424.0, 50.0, 22.0 ],
-					"text" : "14 4 0"
+					"patching_rect" : [ 250.0, 471.0, 50.0, 22.0 ],
+					"text" : "14 1 0"
 				}
 
 			}
@@ -507,8 +507,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -553,8 +553,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1320,7 +1320,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1136.251111111113005, 265.0, 150.0, 20.0 ],
+					"patching_rect" : [ 820.0, 240.0, 150.0, 20.0 ],
 					"text" : "ON: j i 1"
 				}
 
@@ -1331,7 +1331,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1018.251111111113005, 219.0, 256.0, 20.0 ],
+					"patching_rect" : [ 820.0, 214.0, 256.0, 20.0 ],
 					"text" : "i, j = < generator > < who it's listening to >"
 				}
 

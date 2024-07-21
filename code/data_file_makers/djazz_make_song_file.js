@@ -1,15 +1,27 @@
 autowatch = 1;
 
+// Example input: uxxxxx Cerebral 608 125 4 1 9 33 49 73 105 121
+
+
 function make_song_file()
 {
 	var s = arrayfromargs(arguments);
+
 	var save_file_path 	        = s[0];
-	var song_name 		        = s[1];
-	var tempo 			        = s[2];
-	var beats_per_measure       = s[3];
-	var grid_data_dict_name     = s[4];
-	var chapter_start_beats 	= s.slice(5);
-	var chapter_start_measures  = chapter_start_beats.map(function(x) { return x * beats_per_measure; }) 
+
+	var grid_data_dict_name     = s[1];
+	var song_name 		        = s[2];
+	var beat_count 				= s[3];
+	var tempo 			        = s[4];
+	var beats_per_measure       = s[5];
+	var chapter_start_measures 	= s.slice(6);
+	chapter_start_measures  = chapter_start_measures.map(function(x) { return x - 1; });
+	chapter_start_measures.push(beat_count / beats_per_measure);
+
+	post (chapter_start_measures);
+	post (chapter_start_measures.length);
+	
+	var chapter_start_beats  = chapter_start_measures.map(function(x) { return x / beats_per_measure; }) 
 
 	//chapter_start_beats 	= chapter_start_beats.map(function(x) { return x + 1; }) 
 	//chapter_start_measures 	= chapter_start_measures.map(function(x) { return x + 1; }) 
@@ -19,7 +31,7 @@ function make_song_file()
 	var measures_dict 	= make_song_measures_dict	(chapter_start_measures, beats_per_measure);
     var beats_dict 		= make_song_beats_dict		(beats_per_measure, chapter_start_measures, chapter_start_beats);
     var grid_dict 		= make_grid_dict			(chapter_start_measures, beats_per_measure);
-    var grid_data_dict  = make_grid_data_dict       (grid_data_dict_name);
+    var grid_data_dict  = new Dict (grid_data_dict_name);
 
 	var song_dict 		= new Dict();
 
@@ -55,8 +67,8 @@ function make_song_metadata_dict(song_name, tempo, beats_per_measure, chapter_st
 
 function make_song_chapters_dict(chapter_start_measures, chapter_start_beats)
 {	
-	//post("in make_chapter_dicts \n");
-	//post(chapter_start_measures, "\n");
+ 	post("in make_chapter_dicts \n");
+	post(chapter_start_measures.length, "\n");
 	var chapters_dict = new Dict();
 	for (var i = 0; i < chapter_start_measures.length - 1; i++)
 	{
@@ -69,8 +81,8 @@ make_song_chapters_dict.local = 1;
 
 function make_chapter_dict(i, chapter_start_measures, chapter_start_beats)
 {
-	//post("  in make_chapter_dict, i = ", i, "\n");
-	//post(chapter_start_measures, "\n");
+	post("  in make_chapter_dict, i = ", i, "\n");
+	post(chapter_start_measures, "\n");
 	var chapter_dict = new Dict();	
 	chapter_dict.set( "min_measure", 	chapter_start_measures[i]		);
 	chapter_dict.set( "max_measure", 	chapter_start_measures[i + 1]	);
