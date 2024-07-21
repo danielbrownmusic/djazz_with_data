@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1635.0, 919.0 ],
+		"rect" : [ 272.0, 550.0, 729.0, 469.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -990,6 +990,8 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1574.0, 205.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 570.0, 64.0, 100.0, 20.0 ],
 					"text" : "debug view",
 					"texton" : "debug view"
 				}
