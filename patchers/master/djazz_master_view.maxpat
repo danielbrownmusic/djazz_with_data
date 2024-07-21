@@ -622,6 +622,7 @@
 			}
 , 			{
 				"box" : 				{
+					"blinktime" : 120,
 					"id" : "obj-22",
 					"maxclass" : "button",
 					"numinlets" : 1,
