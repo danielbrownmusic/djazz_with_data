@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 138.0, 127.0, 1095.0, 840.0 ],
+		"rect" : [ 138.0, 127.0, 1031.0, 840.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,70 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-38",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 247.0, 226.0, 128.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.0, 74.0, 56.0, 18.0 ],
+					"text" : "CHANNEL",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "number",
+					"maximum" : 16,
+					"minimum" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 335.5, 401.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 58.0, 72.0, 32.0, 22.0 ],
+					"varname" : "number"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 306.0, 277.0, 77.0, 22.0 ],
+					"text" : "loadmess #1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 306.0, 326.0, 78.0, 35.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ 1 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr channel_out",
+					"varname" : "channel_out"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
@@ -370,7 +434,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "midi_out_3_unmute",
+							"parameter_longname" : "midi_out_#1_unmute",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle",
@@ -379,7 +443,7 @@
 
 					}
 ,
-					"varname" : "midi_out_3_unmute"
+					"varname" : "midi_out_#1_unmute"
 				}
 
 			}
@@ -1008,7 +1072,7 @@
 										"valueof" : 										{
 											"parameter_initial" : [ 0.0 ],
 											"parameter_initial_enable" : 1,
-											"parameter_longname" : "note[2]",
+											"parameter_longname" : "note[8]",
 											"parameter_modmode" : 3,
 											"parameter_shortname" : "note",
 											"parameter_type" : 0
@@ -1081,7 +1145,7 @@
 					"patching_rect" : [ 406.0, 204.0, 30.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 22.0, 30.0, 30.0 ],
-					"varname" : "midi_out_3_volume"
+					"varname" : "midi_out_#1_volume"
 				}
 
 			}
@@ -1150,7 +1214,7 @@
 				"box" : 				{
 					"comment" : "components messages",
 					"id" : "obj-9",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1162,7 +1226,7 @@
 				"box" : 				{
 					"comment" : "component messages",
 					"id" : "obj-14",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1187,7 +1251,7 @@
 				"box" : 				{
 					"comment" : "ctrl variables",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1227,10 +1291,10 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 23.0, 207.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"midi_out_3_mute" : [ 0 ],
-						"midi_out_3_solo" : [ 1 ],
-						"midi_out_3_unmute" : [ 1 ],
-						"midi_out_3_volume" : [ 80 ]
+						"midi_out_#1_mute" : [ 0 ],
+						"midi_out_#1_solo" : [ 0 ],
+						"midi_out_#1_unmute" : [ 1 ],
+						"midi_out_#1_volume" : [ 80 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1273,7 +1337,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "midi_out_3_mute",
+							"parameter_longname" : "midi_out_#1_mute",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "led",
@@ -1282,7 +1346,7 @@
 
 					}
 ,
-					"varname" : "midi_out_3_mute"
+					"varname" : "midi_out_#1_mute"
 				}
 
 			}
@@ -1306,7 +1370,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "midi_out_3_solo",
+							"parameter_longname" : "midi_out_#1_solo",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "led[1]",
@@ -1315,7 +1379,7 @@
 
 					}
 ,
-					"varname" : "midi_out_3_solo"
+					"varname" : "midi_out_#1_solo"
 				}
 
 			}
@@ -1334,15 +1398,15 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"bgcolor" : [ 0.482352941176471, 0.482352941176471, 0.482352941176471, 1.0 ],
+					"bgcolor" : [ 0.333333333333333, 0.333333333333333, 0.333333333333333, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.482352941176471, 0.482352941176471, 0.482352941176471, 1.0 ],
+					"bgfillcolor_color" : [ 0.333333333333333, 0.333333333333333, 0.333333333333333, 1.0 ],
 					"bgfillcolor_color1" : [ 0.549019607843137, 0.572549019607843, 0.541176470588235, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"id" : "obj-43",
 					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
@@ -1350,9 +1414,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 997.5, 204.0, 100.0, 20.0 ],
+					"patching_rect" : [ 997.5, 204.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 72.0, 90.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 93.0, 90.0, 22.0 ],
 					"textcolor" : [ 1.0, 0.988235294117647, 0.988235294117647, 1.0 ],
 					"varname" : "midi_out_#1_port"
 				}
@@ -1480,6 +1544,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -1564,6 +1635,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-60", 0 ]
 				}
@@ -1583,7 +1661,48 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-1" : [ "midi_out_#1_solo", "led[1]", 0 ],
+			"obj-2" : [ "midi_out_#1_mute", "led", 0 ],
+			"obj-25::obj-21" : [ "note[8]", "note", 0 ],
+			"obj-46" : [ "midi_out_#1_unmute", "toggle", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "db_dictionary_array_utils.js",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/code/tools",
+				"patcherrelativepath" : "../../../code/tools",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz_components_midi_out_effect_list_view.js",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/code/midiout",
+				"patcherrelativepath" : "../../../code/midiout",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz_midi_out_effect_list_view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/midi/midi_out_bank",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"bgcolor" : [ 0.525490196078431, 0.525490196078431, 0.525490196078431, 1.0 ]
 	}
 
 }

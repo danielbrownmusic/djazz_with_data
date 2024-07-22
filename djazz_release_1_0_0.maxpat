@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 83.0, 132.0, 1389.0, 232.0 ],
+		"rect" : [ 83.0, 132.0, 1389.0, 580.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 653.0, 1058.0, 50.0, 62.0 ],
+					"text" : "1 \"AU DLS Synth 1\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "newobj",
@@ -1063,7 +1076,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 119.0, 1135.0, 524.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1263,8 +1276,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 15,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-									"patching_rect" : [ 50.85714285714289, 100.0, 760.14285714285711, 22.0 ],
-									"text" : "spray 15 0 1"
+									"patching_rect" : [ 50.85714285714289, 100.0, 760.076923076922981, 22.0 ],
+									"text" : "spray 15 1 1"
 								}
 
 							}
@@ -1885,6 +1898,14 @@
 					"destination" : [ "obj-2", 0 ],
 					"midpoints" : [ 863.166666666666629, 1000.5, 1041.5, 1000.5 ],
 					"order" : 0,
+					"source" : [ "obj-57", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 1 ],
+					"order" : 2,
 					"source" : [ "obj-57", 2 ]
 				}
 
