@@ -153,7 +153,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 140.0, 40.0, 30.0, 30.0 ]
 								}
 
@@ -273,10 +273,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "bang" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 848.0, 170.0, 109.0, 108.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 510.42964015582254, 126.0, 109.0, 97.0 ],
+					"varname" : "djazz.view.tap_control",
 					"viewvisibility" : 1
 				}
 
@@ -2255,7 +2256,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1628.0, 122.0, 107.0, 62.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1231, 100, 1694, 1009 ],
+						"client_rect" : [ 1057, 45, 1440, 407 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
