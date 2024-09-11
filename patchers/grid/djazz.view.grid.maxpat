@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 581.0, 166.0, 473.0, 805.0 ],
+		"rect" : [ 718.0, 255.0, 954.0, 805.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -263,7 +263,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -334,7 +334,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 425.444457999999941, 22.0 ],
+									"patching_rect" : [ 50.0, 100.0, 397.0, 22.0 ],
 									"text" : "route waiting playing"
 								}
 
@@ -478,7 +478,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 2 ],
+									"destination" : [ "obj-28", 0 ],
 									"source" : [ "obj-26", 0 ]
 								}
 
@@ -914,7 +914,7 @@
 					}
 ,
 					"tabcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
-					"tabs" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16" ],
+					"tabs" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32" ],
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
 					"varname" : "grid_bar"
 				}
@@ -934,11 +934,11 @@
 					"presentation_rect" : [ 61.0, -1.0, 195.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7" ],
+							"parameter_enum" : [ "1", "2" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_linknames" : 1,
 							"parameter_longname" : "grid_chapter",
-							"parameter_mmax" : 6,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "grid_chapter",
 							"parameter_type" : 2
@@ -946,7 +946,7 @@
 
 					}
 ,
-					"tabs" : [ "1", "2", "3", "4", "5", "6", "7" ],
+					"tabs" : [ "1", "2" ],
 					"varname" : "grid_chapter"
 				}
 

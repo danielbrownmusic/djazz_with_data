@@ -132,7 +132,7 @@
 
 									}
 ,
-									"text" : "waiting 0 1 0",
+									"text" : "waiting -1 32 0",
 									"varname" : "grid_view"
 								}
 
@@ -174,7 +174,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 627.0, 191.0, 623.0, 664.0 ],
+										"rect" : [ 626.0, 191.0, 623.0, 664.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1398,7 +1398,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 466.0, 96.0, 147.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1231, 100, 1694, 1009 ],
+						"client_rect" : [ 541, 165, 924, 527 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -5475,7 +5475,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 197.0, 306.0, 30.0, 30.0 ]
+					"patching_rect" : [ 197.0, 313.0, 30.0, 30.0 ]
 				}
 
 			}
