@@ -4558,7 +4558,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 601.0, 97.0, 119.0, 49.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 541, 165, 924, 527 ],
+						"client_rect" : [ 1057, 45, 1440, 407 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -4780,7 +4780,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 731.0, 738.664835164836063, 150.0, 22.0 ],
+									"patching_rect" : [ 1036.0, 738.664835164835949, 150.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -4810,7 +4810,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 809.0, 118.0, 1191.0, 967.0 ],
+										"rect" : [ 503.0, 116.0, 1191.0, 967.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -5626,7 +5626,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 1090.0, 738.664835164836063, 109.0, 22.0 ],
+									"patching_rect" : [ 1395.0, 738.664835164835949, 109.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -5646,7 +5646,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 862.0, 683.208791208790217, 177.0, 22.0 ],
+									"patching_rect" : [ 1167.0, 682.664835164835949, 177.0, 22.0 ],
 									"text" : "djazz.control.repetition_selector",
 									"varname" : "repetition_selector_2"
 								}
@@ -5659,7 +5659,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 862.0, 643.208791208790217, 177.0, 22.0 ],
+									"patching_rect" : [ 1167.0, 642.664835164835949, 177.0, 22.0 ],
 									"text" : "djazz.control.repetition_selector",
 									"varname" : "repetition_selector_1"
 								}
@@ -5865,7 +5865,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 1090.0, 680.093406593407622, 60.0, 22.0 ],
+									"patching_rect" : [ 1395.0, 679.664835164835949, 60.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -6960,7 +6960,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 153.5, 812.249999999999545, 30.0, 30.0 ]
+									"patching_rect" : [ 104.5, 814.0, 30.0, 30.0 ]
 								}
 
 							}
