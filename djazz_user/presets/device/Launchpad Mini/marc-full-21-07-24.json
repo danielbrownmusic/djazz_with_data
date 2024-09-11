@@ -31,7 +31,6 @@
 		"score_1_speed_3/2" : "midi 80 yellow",
 		"score_1_speed_2" : "midi 96 yellow",
 		"score_1_speed_4" : "midi 112 yellow",
-		"score_1_octave_up" : "midi 84 orange",
 		"midi_out_8_unmute" : "midi 65 green",
 		"midi_out_9_unmute" : "midi 66 green",
 		"midi_out_10_unmute" : "midi 67 green",
@@ -45,6 +44,7 @@
 		"midi_out_6_unmute" : "midi 100 green",
 		"midi_out_7_unmute" : "midi 101 green",
 		"score_1_reset_octave" : "midi 83 orange",
+		"score_1_octave_up" : "midi 84 orange",
 		"score_1_octave_down" : "midi 85 orange",
 		"score_1_loop_1" : "midi 71 yellow",
 		"score_1_loop_2" : "midi 87 yellow",
@@ -57,8 +57,7 @@
 		"audio_1_active" : "midi 113 green",
 		"audio_out_1_unmute" : "midi 113 green",
 		"audio_out_2_unmute" : "midi 114 green",
-		"audio_out_3_unmute" : "midi 115 green",
-		"param_name" : "midi 83 orange"
+		"audio_out_3_unmute" : "midi 115 green"
 	}
 
 }

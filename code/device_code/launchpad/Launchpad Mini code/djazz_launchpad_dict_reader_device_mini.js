@@ -62,7 +62,7 @@ exports.grid_states = function (param)
 
 exports.color_code = function(color)
 {
-    post ("color =", color, "\n");
+    //post ("color =", color, "\n");
     var data            = color.split(" ");
     var hue             = data[0];
     var is_none         = (hue === 'none'); 

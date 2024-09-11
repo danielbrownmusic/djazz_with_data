@@ -4,8 +4,8 @@ autowatch       = 1;
 
 var device_dict_file_path_ = jsarguments.length > 1 ? jsarguments[1] : "";
 var default_map_file_path_ = jsarguments.length > 2 ? jsarguments[2] : "";
-post (device_dict_file_path_);
-post (default_map_file_path_);
+//post (device_dict_file_path_);
+//post (default_map_file_path_);
 
 
 var map_rdr_        = require ('djazz_launchpad_dict_reader_map');
@@ -52,7 +52,7 @@ function save_mapping(map_file_path)
 
 function reset_mapping()
 {
-    post ("clear mapping\n");
+    //post ("clear mapping\n");
     load_mapping(default_map_file_path_);
 }
 
@@ -66,7 +66,7 @@ function reset_mapping()
 function load_mapping(map_dict_file_path)
 {
     clear_mapping_();
-    post ("map file path:", map_dict_file_path);
+    //post ("map file path:", map_dict_file_path);
     map_dict_.import_json(map_dict_file_path);
 
     if (!map_rdr_.set_dict(device_name_, map_dict_.name))
