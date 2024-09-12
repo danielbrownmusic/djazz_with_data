@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 83.0, 132.0, 898.0, 570.0 ],
+		"rect" : [ 83.0, 132.0, 650.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -443,7 +443,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 349.0, 431.0, 507.0, 99.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.0, 434.0, 502.0, 107.0 ],
+					"presentation_rect" : [ 100.0, 429.0, 502.0, 107.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -7130,6 +7130,13 @@
 				"name" : "djazz.view.midi.midi_out_track.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/midi/midi_out_bank",
 				"patcherrelativepath" : "./patchers/midi/midi_out_bank",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.view.remote_tap.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/view",
+				"patcherrelativepath" : "./patchers/view",
 				"type" : "JSON",
 				"implicit" : 1
 			}
