@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 782.0, 162.0, 912.0, 826.0 ],
+		"rect" : [ 222.0, 167.0, 1341.0, 826.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2801,6 +2801,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-22",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -3280,7 +3281,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 676.75, 690.465018990414592, 30.0, 30.0 ]
+					"patching_rect" : [ 677.0, 687.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -4823,7 +4824,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-36",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -7782,7 +7783,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 123.0, 140.0, 777.0, 983.0 ],
+										"rect" : [ 469.0, 100.0, 777.0, 983.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -9429,7 +9430,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 363.5, 268.0, 253.0, 22.0 ],
+													"patching_rect" : [ 363.5, 268.0, 253.0, 35.0 ],
 													"text" : "pv #0_PITCHES_WAITING_FOR_OFFTIMES"
 												}
 
@@ -11007,7 +11008,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 213.0, 374.0, 1365.0, 817.0 ],
+						"rect" : [ 213.0, 160.0, 1365.0, 817.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -11097,7 +11098,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1180.000010503997373, 244.0, 110.0, 22.0 ],
-									"text" : "u709045006"
+									"text" : "u884042049"
 								}
 
 							}
@@ -11200,7 +11201,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 617.500010503997373, 244.0, 92.0, 22.0 ],
-									"text" : "u047045005"
+									"text" : "u346042048"
 								}
 
 							}
@@ -11212,7 +11213,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 382.750010503997373, 240.0, 108.0, 22.0 ],
-									"text" : "NONE"
+									"text" : "u439042080"
 								}
 
 							}
@@ -11225,7 +11226,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 70.333337664604187, 188.0, 139.0, 35.0 ],
-									"text" : "1277_PITCHES_WAITING_FOR_OFFTIMES"
+									"text" : "1159_PITCHES_WAITING_FOR_OFFTIMES"
 								}
 
 							}
