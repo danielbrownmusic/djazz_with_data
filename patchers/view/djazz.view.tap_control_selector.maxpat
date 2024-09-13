@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 142.0, 273.0, 1042.0, 480.0 ],
+		"rect" : [ 132.0, 396.0, 1281.0, 622.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -159,12 +159,12 @@
 				"box" : 				{
 					"comment" : "anything to trigger bang in manual tap",
 					"id" : "obj-10",
-					"index" : 3,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 933.0, 178.0, 30.0, 30.0 ]
+					"patching_rect" : [ 995.0, 16.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -256,12 +256,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 2,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 733.0, 178.0, 30.0, 30.0 ]
+					"patching_rect" : [ 1039.0, 16.0, 30.0, 30.0 ]
 				}
 
 			}

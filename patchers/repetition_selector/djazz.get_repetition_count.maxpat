@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 5,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1193.0, 157.0, 830.0, 920.0 ],
+		"rect" : [ 604.0, 157.0, 582.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,49 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "gswitch",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 266.0, 714.0, 74.0, 36.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "int" ],
+					"patching_rect" : [ 204.0, 423.5, 81.0, 22.0 ],
+					"text" : "t 0 s 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 321.0, 645.0, 102.0, 22.0 ],
+					"text" : "t i 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 617.0, 30.0, 30.0 ]
+					"patching_rect" : [ 150.0, 781.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -69,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 204.0, 561.0, 71.0, 22.0 ],
+					"patching_rect" : [ 321.0, 592.0, 71.0, 22.0 ],
 					"text" : "darr.getsize"
 				}
 
@@ -78,7 +114,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -154,7 +190,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 204.0, 499.500000059604645, 87.0, 22.0 ],
+					"patching_rect" : [ 321.0, 531.0, 87.0, 22.0 ],
 					"text" : "du.get_subdict"
 				}
 
@@ -166,7 +202,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "repetitions", "" ],
-					"patching_rect" : [ 204.0, 447.5, 86.666666865348816, 22.0 ],
+					"patching_rect" : [ 321.0, 479.0, 86.666666865348816, 22.0 ],
 					"text" : "t repetitions s"
 				}
 
@@ -176,6 +212,37 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-10", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 1 ],
+					"midpoints" : [ 213.5, 579.25, 303.0, 579.25 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"midpoints" : [ 244.5, 461.75, 330.5, 461.75 ],
+					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 275.5, 758.5, 159.5, 758.5 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -245,7 +312,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-23", 1 ]
 				}
 
@@ -274,35 +341,27 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "darr.getsize.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/tools/dict",
-				"patcherrelativepath" : "./tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 413.5, 690.0, 275.5, 690.0 ],
+					"source" : [ "obj-9", 1 ]
+				}
+
 			}
 , 			{
-				"name" : "du.does_key_exist.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/tools/dict",
-				"patcherrelativepath" : "./tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
+				"patchline" : 				{
+					"destination" : [ "obj-11", 2 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
 			}
-, 			{
-				"name" : "du.get_subdict.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_full/patchers/tools/dict",
-				"patcherrelativepath" : "./tools/dict",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
