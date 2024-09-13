@@ -83,7 +83,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 384.25, 139.0, 139.0, 35.0 ],
-					"text" : "regexp \\\\.*loop_length\\\\s(\\\\d+))"
+					"text" : "regexp \\\\.*loop_length\\\\s(\\\\d+)"
 				}
 
 			}
