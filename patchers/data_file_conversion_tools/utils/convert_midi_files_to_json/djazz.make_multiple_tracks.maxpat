@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 336.0, 130.0, 1358.0, 953.0 ],
+		"rect" : [ 282.0, 112.0, 1358.0, 953.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -522,7 +522,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-19",
@@ -611,7 +610,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 142.0, 292.0, 110.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"text" : "combine tracks:: s @triggers 1"
 								}
 
@@ -5463,7 +5461,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 72.0, 705.0, 137.0, 22.0 ],
+					"patching_rect" : [ 72.0, 713.0, 137.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",

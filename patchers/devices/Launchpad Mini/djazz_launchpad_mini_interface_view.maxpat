@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 827.0, 181.0, 658.0, 620.0 ],
+		"rect" : [ 400.0, 400.0, 400.0, 200.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -104,16 +104,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 848.0, 585.0, 206.0, 89.0 ],
+					"patching_rect" : [ 848.0, 585.0, 206.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 98.0, 32.0, 282.0, 62.0 ],
-					"text" : "\"Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_with_data/djazz_user/presets/device/Launchpad Mini/marc-full-21-07-24.json\""
+					"presentation_rect" : [ 98.0, 32.0, 282.0, 22.0 ]
 				}
 
 			}

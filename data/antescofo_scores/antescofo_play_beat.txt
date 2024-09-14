@@ -43,8 +43,6 @@ whenever ($track_1) // @exclusive
                     $duration := @round($track_1[$note_pos + 3] * $beat_duration_in_ms),
                     $channel  := $track_1[$note_pos + 4]
 
-               LOG $tempo "@tempo" launch at ($NOW + $ontime) $duration
-
                $ontime @command($outlet) $track $pitch $velocity $duration $channel
                        ;@print("--" , $NOW, "@tempo ",  $tempo, " duration ", $duration, " pitch ", $pitch, " velocity ", $velocity)
           }
