@@ -257,8 +257,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"ignoreclick" : 1,
-					"knobcolor" : [ 0.361, 0.506, 0.525, 1.0 ],
+					"knobcolor" : [ 0.753, 0.937, 0.965, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
