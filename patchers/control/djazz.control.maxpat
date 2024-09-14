@@ -1587,6 +1587,7 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-17",
+																	"int" : 1,
 																	"maxclass" : "gswitch2",
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
@@ -6372,8 +6373,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 571.0, 683.208791208790217, 121.0, 22.0 ],
-									"text" : "djazz.control.midi.out",
+									"patching_rect" : [ 571.0, 683.208791208790217, 138.0, 22.0 ],
+									"text" : "djazz.control.midi.out 15",
 									"varname" : "out_15"
 								}
 
@@ -6385,8 +6386,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 571.0, 648.60361067503834, 121.0, 22.0 ],
-									"text" : "djazz.control.midi.out",
+									"patching_rect" : [ 571.0, 648.60361067503834, 138.0, 22.0 ],
+									"text" : "djazz.control.midi.out 14",
 									"varname" : "out_14"
 								}
 
@@ -6398,8 +6399,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 571.0, 613.998430141286462, 121.0, 22.0 ],
-									"text" : "djazz.control.midi.out",
+									"patching_rect" : [ 571.0, 613.998430141286462, 138.0, 22.0 ],
+									"text" : "djazz.control.midi.out 13",
 									"varname" : "out_13"
 								}
 
@@ -6411,8 +6412,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 571.0, 579.393249607534585, 121.0, 22.0 ],
-									"text" : "djazz.control.midi.out",
+									"patching_rect" : [ 571.0, 579.393249607534585, 138.0, 22.0 ],
+									"text" : "djazz.control.midi.out 12",
 									"varname" : "out_12"
 								}
 
@@ -6424,8 +6425,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 571.0, 544.788069073782708, 121.0, 22.0 ],
-									"text" : "djazz.control.midi.out",
+									"patching_rect" : [ 571.0, 544.788069073782708, 137.0, 22.0 ],
+									"text" : "djazz.control.midi.out 11",
 									"varname" : "out_11"
 								}
 
@@ -6437,8 +6438,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 571.0, 510.182888540030831, 121.0, 22.0 ],
-									"text" : "djazz.control.midi.out",
+									"patching_rect" : [ 571.0, 510.182888540030831, 138.0, 22.0 ],
+									"text" : "djazz.control.midi.out 10",
 									"varname" : "out_10"
 								}
 
@@ -6450,8 +6451,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 571.0, 475.577708006278954, 121.0, 22.0 ],
-									"text" : "djazz.control.midi.out",
+									"patching_rect" : [ 571.0, 475.577708006278954, 131.0, 22.0 ],
+									"text" : "djazz.control.midi.out 9",
 									"varname" : "out_9"
 								}
 
@@ -6463,8 +6464,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 571.0, 440.972527472527076, 121.0, 22.0 ],
-									"text" : "djazz.control.midi.out",
+									"patching_rect" : [ 571.0, 440.972527472527076, 131.0, 22.0 ],
+									"text" : "djazz.control.midi.out 8",
 									"varname" : "out_8"
 								}
 
@@ -6476,8 +6477,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 571.0, 406.367346938775199, 121.0, 22.0 ],
-									"text" : "djazz.control.midi.out",
+									"patching_rect" : [ 571.0, 406.367346938775199, 131.0, 22.0 ],
+									"text" : "djazz.control.midi.out 7",
 									"varname" : "out_7"
 								}
 
@@ -6489,8 +6490,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 571.0, 371.762166405023322, 121.0, 22.0 ],
-									"text" : "djazz.control.midi.out",
+									"patching_rect" : [ 571.0, 371.762166405023322, 131.0, 22.0 ],
+									"text" : "djazz.control.midi.out 6",
 									"varname" : "out_6"
 								}
 
@@ -6502,8 +6503,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 571.0, 337.156985871271445, 121.0, 22.0 ],
-									"text" : "djazz.control.midi.out",
+									"patching_rect" : [ 571.0, 337.156985871271445, 131.0, 22.0 ],
+									"text" : "djazz.control.midi.out 5",
 									"varname" : "out_5"
 								}
 
@@ -6515,8 +6516,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 571.0, 302.551805337519568, 121.0, 22.0 ],
-									"text" : "djazz.control.midi.out",
+									"patching_rect" : [ 571.0, 302.551805337519568, 131.0, 22.0 ],
+									"text" : "djazz.control.midi.out 4",
 									"varname" : "out_4"
 								}
 
@@ -6528,8 +6529,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 571.0, 267.946624803767691, 121.0, 22.0 ],
-									"text" : "djazz.control.midi.out",
+									"patching_rect" : [ 571.0, 267.946624803767691, 131.0, 22.0 ],
+									"text" : "djazz.control.midi.out 3",
 									"varname" : "out_3"
 								}
 

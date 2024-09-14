@@ -53,19 +53,19 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 307.0, 27.0, 75.0, 35.0 ],
+					"patching_rect" : [ 307.0, 27.0, 86.0, 49.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr channel_out",
+					"text" : "pattr channel_out @initial #1",
 					"varname" : "channel_out"
 				}
 

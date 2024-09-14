@@ -54,7 +54,7 @@
 				"box" : 				{
 					"comment" : "(sym) port",
 					"id" : "obj-8",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -98,19 +98,19 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 306.0, 326.0, 78.0, 35.0 ],
+					"patching_rect" : [ 306.0, 326.0, 78.0, 49.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 1 ],
+						"initial" : [ "#1" ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr channel_out",
+					"text" : "pattr channel_out @initial #1",
 					"varname" : "channel_out"
 				}
 
@@ -447,7 +447,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "midi_out_1_unmute",
+							"parameter_longname" : "midi_out_#1_unmute",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "toggle",
@@ -456,7 +456,7 @@
 
 					}
 ,
-					"varname" : "midi_out_1_unmute"
+					"varname" : "midi_out_#1_unmute"
 				}
 
 			}
@@ -1140,7 +1140,7 @@
 					"patching_rect" : [ 406.0, 204.0, 30.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 22.0, 30.0, 30.0 ],
-					"varname" : "midi_out_1_volume"
+					"varname" : "midi_out_#1_volume"
 				}
 
 			}
@@ -1209,7 +1209,7 @@
 				"box" : 				{
 					"comment" : "components messages",
 					"id" : "obj-9",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1221,7 +1221,7 @@
 				"box" : 				{
 					"comment" : "component messages",
 					"id" : "obj-14",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1246,7 +1246,7 @@
 				"box" : 				{
 					"comment" : "ctrl variables",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1286,10 +1286,10 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 23.0, 207.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"midi_out_1_mute" : [ 0 ],
-						"midi_out_1_solo" : [ 0 ],
-						"midi_out_1_unmute" : [ 1 ],
-						"midi_out_1_volume" : [ 80 ]
+						"midi_out_#1_mute" : [ 0 ],
+						"midi_out_#1_solo" : [ 0 ],
+						"midi_out_#1_unmute" : [ 1 ],
+						"midi_out_#1_volume" : [ 80 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1332,7 +1332,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "midi_out_1_mute",
+							"parameter_longname" : "midi_out_#1_mute",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "led",
@@ -1341,7 +1341,7 @@
 
 					}
 ,
-					"varname" : "midi_out_1_mute"
+					"varname" : "midi_out_#1_mute"
 				}
 
 			}
@@ -1365,7 +1365,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "midi_out_1_solo",
+							"parameter_longname" : "midi_out_#1_solo",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "led[1]",
@@ -1374,7 +1374,7 @@
 
 					}
 ,
-					"varname" : "midi_out_1_solo"
+					"varname" : "midi_out_#1_solo"
 				}
 
 			}
@@ -1664,6 +1664,46 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1" : [ "midi_out_#1_solo", "led[1]", 0 ],
+			"obj-2" : [ "midi_out_#1_mute", "led", 0 ],
+			"obj-25::obj-21" : [ "note", "note", 0 ],
+			"obj-46" : [ "midi_out_#1_unmute", "toggle", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "db_dictionary_array_utils.js",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/code/tools",
+				"patcherrelativepath" : "../../../code/tools",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz_components_midi_out_effect_list_view.js",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/code/midiout",
+				"patcherrelativepath" : "../../../code/midiout",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz_midi_out_effect_list_view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/midi/midi_out_bank",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.525490196078431, 0.525490196078431, 0.525490196078431, 1.0 ]
 	}
 
