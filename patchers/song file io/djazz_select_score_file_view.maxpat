@@ -66,7 +66,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-37",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -539,7 +539,7 @@
 				"box" : 				{
 					"comment" : "(symbol) full path of chosen score file; \"clear\" if cleared",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -562,13 +562,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.5, 345.5, 76.0, 62.0 ],
-					"text" : "types TEXT, prefix $1, populate, insert 0 \" \""
+					"patching_rect" : [ 268.5, 345.5, 114.0, 49.0 ],
+					"text" : "types TEXT JSON, prefix $1, populate, insert 0 \" \""
 				}
 
 			}
@@ -576,7 +576,7 @@
 				"box" : 				{
 					"comment" : "(symbol) full path of song folder",
 					"id" : "obj-21",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -834,7 +834,15 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
