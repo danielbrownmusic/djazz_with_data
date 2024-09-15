@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 108.0, 356.0, 1569.0, 710.0 ],
+		"rect" : [ 119.0, 347.0, 1113.0, 710.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -276,7 +276,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 809.0, 170.0, 213.0, 104.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 400.0, 8.0, 214.0, 100.0 ],
+					"presentation_rect" : [ 397.0, 4.0, 215.0, 100.0 ],
 					"varname" : "djazz.view.tap_control",
 					"viewvisibility" : 1
 				}
@@ -799,7 +799,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"items" : [ "select", ",", "select", ",", "AllINeed", ",", "AllOfMe", ",", "Allthethingsyouare", ",", "AutumnleavesDoMin", ",", "BalitaKely", ",", "BandeOrgueZay", ",", "Baobab", ",", "BesameMucho", ",", "Bilo", ",", "BluesFamaj", ",", "BodyAndSoul", ",", "Boomerang", ",", "CamelBluesTernaire8", ",", "Capharnaum", ",", "Caravan", ",", "Carlos", ",", "Cerebral", ",", "CheektoCheek", ",", "CheektoCheekDjin", ",", "Cheerleader", ",", "ChegadeSaudade", ",", "Dang", ",", "Embona", ",", "Equilibrium", ",", "Espion", ",", "EtrangeJournee", ",", "EveryBreath", ",", "Fahatsia", ",", "Fara", ",", "Formidable", ",", "Free1", ",", "Free16", ",", "Free24", ",", "Free32", ",", "Free4", ",", "Free8", ",", "FreedomJazzDance", ",", "Guerre", ",", "Handfulofkeys", ",", "Helmut", ",", "Hoany", ",", "Ifarakely", ",", "Jabeau", ",", "JakeFine", ",", "JustAGigolo", ",", "JustTheWay", ",", "Kilalao", ",", "KillerJoe", ",", "Kissamile", ",", "Kristoffer", ",", "L-O-V-E", ",", "LaJavanaise", ",", "Lasa", ",", "Liana", ",", "LianaIntro16", ",", "LoveYourself", ",", "Lullaby", ",", "MakingFlippy", ",", "Malaky", ",", "Masoala", ",", "Mezerg", ",", "MieuxQue", ",", "Nightintunisia", ",", "Padam", ",", "PasAVendre", ",", "PasJalouse", ",", "PasPeur", ",", "Perfect", ",", "Perhaps", ",", "Rasputin", ",", "Rasputincourt", ",", "Reveeveille", ",", "SatinDoll", ",", "Save", ",", "Sojerina", ",", "SoWhat", ",", "Spain", ",", "StarWazzz", ",", "Summertime", ",", "Sunny", ",", "TakeFive", ",", "TheseBoots", ",", "Tsofyrano", ",", "VatoMalaza", ",", "Walk", ",", "Williason", ",", "WizKhalifa", ",", "Zay" ],
+					"items" : [ "select", ",", "select", ",", "select", ",", "AllINeed", ",", "AllOfMe", ",", "Allthethingsyouare", ",", "AutumnleavesDoMin", ",", "BalitaKely", ",", "BandeOrgueZay", ",", "Baobab", ",", "BesameMucho", ",", "Bilo", ",", "BluesFamaj", ",", "BodyAndSoul", ",", "Boomerang", ",", "CamelBluesTernaire8", ",", "Capharnaum", ",", "Caravan", ",", "Carlos", ",", "Cerebral", ",", "CheektoCheek", ",", "CheektoCheekDjin", ",", "Cheerleader", ",", "ChegadeSaudade", ",", "Dang", ",", "Embona", ",", "Equilibrium", ",", "Espion", ",", "EtrangeJournee", ",", "EveryBreath", ",", "Fahatsia", ",", "Fara", ",", "Formidable", ",", "Free1", ",", "Free16", ",", "Free24", ",", "Free32", ",", "Free4", ",", "Free8", ",", "FreedomJazzDance", ",", "Guerre", ",", "Handfulofkeys", ",", "Helmut", ",", "Hoany", ",", "Ifarakely", ",", "Jabeau", ",", "JakeFine", ",", "JustAGigolo", ",", "JustTheWay", ",", "Kilalao", ",", "KillerJoe", ",", "Kissamile", ",", "Kristoffer", ",", "L-O-V-E", ",", "LaJavanaise", ",", "Lasa", ",", "Liana", ",", "LianaIntro16", ",", "LoveYourself", ",", "Lullaby", ",", "MakingFlippy", ",", "Malaky", ",", "Masoala", ",", "Mezerg", ",", "MieuxQue", ",", "Nightintunisia", ",", "Padam", ",", "PasAVendre", ",", "PasJalouse", ",", "PasPeur", ",", "Perfect", ",", "Perhaps", ",", "Rasputin", ",", "Rasputincourt", ",", "Reveeveille", ",", "SatinDoll", ",", "Save", ",", "Sojerina", ",", "SoWhat", ",", "Spain", ",", "StarWazzz", ",", "Summertime", ",", "Sunny", ",", "TakeFive", ",", "TheseBoots", ",", "Tsofyrano", ",", "VatoMalaza", ",", "Walk", ",", "Williason", ",", "WizKhalifa", ",", "Zay" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -808,7 +808,7 @@
 					"patching_rect" : [ 585.0, 160.0, 208.0, 22.0 ],
 					"prefix" : "Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_with_data/patchers/view/djazz_user/scores",
 					"presentation" : 1,
-					"presentation_rect" : [ 271.0, 116.0, 296.0, 22.0 ],
+					"presentation_rect" : [ 269.0, 112.0, 296.0, 22.0 ],
 					"types" : "fold",
 					"varname" : "umenu"
 				}
@@ -872,7 +872,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2340.0, 317.0, 76.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 551.42964015582254, 258.0, 62.0, 22.0 ],
+					"presentation_rect" : [ 548.0, 254.0, 62.0, 22.0 ],
 					"textcolor" : [ 0.576470588235294, 0.576470588235294, 0.576470588235294, 1.0 ]
 				}
 
@@ -912,7 +912,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2266.0, 347.0, 35.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 419.42964015582254, 259.0, 35.0, 18.0 ],
+					"presentation_rect" : [ 416.0, 255.0, 35.0, 18.0 ],
 					"text" : "BEAT",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -928,7 +928,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2266.0, 317.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 455.42964015582254, 258.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 452.0, 254.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -941,7 +941,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2344.0, 347.0, 40.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 509.42964015582254, 259.0, 40.0, 18.0 ],
+					"presentation_rect" : [ 506.0, 255.0, 40.0, 18.0 ],
 					"text" : "LABEL",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1679,7 +1679,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1197.0, 166.0, 498.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.42964015582254, 147.0, 499.906971877095771, 93.999999999999986 ],
+					"presentation_rect" : [ 2.0, 143.0, 622.0, 94.0 ],
 					"varname" : "grid",
 					"viewvisibility" : 1
 				}
@@ -2127,7 +2127,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 216.0, 145.0, 55.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.0, 8.0, 108.0, 100.429937572526143 ],
+					"presentation_rect" : [ 166.0, 4.0, 108.0, 100.429937572526143 ],
 					"text" : "MIDI",
 					"texton" : "MIDI",
 					"varname" : "textbutton[1]"
@@ -2146,7 +2146,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 76.0, 145.0, 67.0, 28.228247279098014 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 290.0, 8.0, 101.0, 100.0 ],
+					"presentation_rect" : [ 287.0, 4.0, 101.0, 100.0 ],
 					"text" : "AUDIO",
 					"texton" : "AUDIO",
 					"varname" : "textbutton"
@@ -2167,7 +2167,7 @@
 					"patching_rect" : [ 2116.0, 67.0, 103.666665554046631, 66.927012073267136 ],
 					"pic" : "Audio_DB_bkp_mkm_2To:/NEW_2021_07_BKP/DJAAZ_Project/Djazz_MAIN/Djazz_palettes_couleur/djazz_logos/jpg/_Djazz-logo-fondnoir.jpg",
 					"presentation" : 1,
-					"presentation_rect" : [ 7.42964015582254, 7.716619288101754, 156.0, 100.713318284424389 ]
+					"presentation_rect" : [ 4.0, 4.0, 156.0, 100.713318284424389 ]
 				}
 
 			}
@@ -2285,7 +2285,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1003.0, 90.5, 394.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.42964015582254, 255.0, 384.0, 29.0 ],
+					"presentation_rect" : [ 4.0, 251.0, 384.0, 29.0 ],
 					"varname" : "master",
 					"viewvisibility" : 1
 				}
@@ -2328,7 +2328,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 419.0, 72.0, 71.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 219.0, 116.0, 47.200000703334808, 22.800000011920929 ],
+					"presentation_rect" : [ 217.0, 112.0, 47.200000703334808, 22.800000011920929 ],
 					"text" : "browse",
 					"texton" : "browse",
 					"usebgoncolor" : 1,
@@ -2348,7 +2348,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 521.0, 72.0, 71.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 572.0, 116.0, 42.0, 22.0 ],
+					"presentation_rect" : [ 570.0, 112.0, 42.0, 22.0 ],
 					"text" : "clear",
 					"texton" : "clear",
 					"usebgoncolor" : 1,
@@ -2394,7 +2394,7 @@
 					"patching_rect" : [ 363.0, 65.0, 35.0, 34.0 ],
 					"pic" : "song_folder.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 169.0, 111.0, 47.200000703334808, 30.883352541223303 ]
+					"presentation_rect" : [ 166.0, 107.0, 47.200000703334808, 30.883352541223303 ]
 				}
 
 			}
@@ -3358,6 +3358,13 @@
 				"name" : "djazz.view.midi.midi_out_track.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/midi/midi_out_bank",
 				"patcherrelativepath" : "../midi/midi_out_bank",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "djazz.view.remote_tap.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/view",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

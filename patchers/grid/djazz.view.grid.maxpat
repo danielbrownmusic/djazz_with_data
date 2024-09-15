@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 718.0, 255.0, 954.0, 805.0 ],
+		"rect" : [ 161.0, 225.0, 1006.0, 805.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,9 +40,82 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-27",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 771.0, 334.699999999999932, 183.0, 35.0 ],
+					"saved_object_attributes" : 					{
+						"initial" : [ 0 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr loop_chapter_means_loop_song",
+					"varname" : "loop_chapter_means_loop_song"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-23",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 875.0, 423.0, 40.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 565.0, 47.0, 39.0, 18.0 ],
+					"text" : "SONG",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-22",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 875.0, 403.0, 56.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 565.0, 27.0, 56.0, 18.0 ],
+					"text" : "CHAPTER",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activecolor" : [ 1.0, 0.611764705882353, 0.0, 1.0 ],
+					"disabled" : [ 0, 0 ],
+					"id" : "obj-5",
+					"itemtype" : 0,
+					"maxclass" : "radiogroup",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : 18,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 853.0, 403.0, 20.0, 38.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 544.0, 27.0, 19.0, 38.0 ],
+					"shape" : 2,
+					"size" : 2,
+					"value" : 0,
+					"varname" : "radiogroup"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "bang if bar has been mouse clicked",
 					"id" : "obj-4",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -205,8 +278,9 @@
 			}
 , 			{
 				"box" : 				{
+					"bgoncolor" : [ 1.0, 0.611764705882353, 0.0, 1.0 ],
 					"fontname" : "Webdings",
-					"fontsize" : 20.0,
+					"fontsize" : 29.0,
 					"id" : "obj-31",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -214,10 +288,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 706.5, 403.0, 30.0, 21.0 ],
+					"patching_rect" : [ 706.5, 403.0, 36.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 66.5, 27.0, 25.0 ],
-					"rounded" : 8.0,
+					"presentation_rect" : [ 499.0, 27.0, 41.0, 38.0 ],
+					"rounded" : 4.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -233,6 +307,7 @@
 ,
 					"text" : "q",
 					"texton" : "q",
+					"usebgoncolor" : 1,
 					"varname" : "grid_loop_chapter"
 				}
 
@@ -905,7 +980,7 @@
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "grid_bar",
-							"parameter_mmax" : 15.0,
+							"parameter_mmax" : 0.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "grid_bar",
 							"parameter_type" : 3
@@ -914,7 +989,7 @@
 					}
 ,
 					"tabcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
-					"tabs" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32" ],
+					"tabs" : [ "1" ],
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
 					"varname" : "grid_bar"
 				}
@@ -1019,6 +1094,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-27", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 324.0, 385.549999999999955, 398.5, 385.549999999999955 ],
 					"source" : [ "obj-29", 0 ]
@@ -1062,8 +1144,33 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-14" : [ "grid_bar", "grid_bar", 0 ],
+			"obj-31" : [ "grid_loop_chapter", "grid_loop_chapter", 0 ],
+			"obj-6" : [ "grid_chapter", "grid_chapter", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "djazz_range.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/iterators",
+				"patcherrelativepath" : "../tools/iterators",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.541176470588235, 0.552941176470588, 0.564705882352941, 1.0 ],
-		"editing_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+		"editing_bgcolor" : [ 0.541176470588235, 0.552941176470588, 0.564705882352941, 1.0 ]
 	}
 
 }
