@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 119.0, 347.0, 1575.0, 710.0 ],
+		"rect" : [ 119.0, 532.0, 1057.0, 710.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -408,7 +408,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 809.0, 170.0, 213.0, 104.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 397.0, 4.0, 215.0, 100.0 ],
+					"presentation_rect" : [ 411.0, 4.0, 215.0, 100.0 ],
 					"varname" : "djazz.view.tap_control",
 					"viewvisibility" : 1
 				}
@@ -919,7 +919,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"items" : [ "select", ",", "select", ",", "select", ",", "select", ",", "select", ",", "select", ",", "select", ",", "AllINeed", ",", "AllOfMe", ",", "Allthethingsyouare", ",", "AutumnleavesDoMin", ",", "BalitaKely", ",", "BandeOrgueZay", ",", "Baobab", ",", "BesameMucho", ",", "Bilo", ",", "BluesFamaj", ",", "BodyAndSoul", ",", "Boomerang", ",", "CamelBluesTernaire8", ",", "Capharnaum", ",", "Caravan", ",", "Carlos", ",", "Cerebral", ",", "CheektoCheek", ",", "CheektoCheekDjin", ",", "Cheerleader", ",", "ChegadeSaudade", ",", "Dang", ",", "Embona", ",", "Equilibrium", ",", "Espion", ",", "EtrangeJournee", ",", "EveryBreath", ",", "Fahatsia", ",", "Fara", ",", "Formidable", ",", "Free1", ",", "Free16", ",", "Free24", ",", "Free32", ",", "Free4", ",", "Free8", ",", "FreedomJazzDance", ",", "Guerre", ",", "Handfulofkeys", ",", "Helmut", ",", "Hoany", ",", "Ifarakely", ",", "Jabeau", ",", "JakeFine", ",", "JustAGigolo", ",", "JustTheWay", ",", "Kilalao", ",", "KillerJoe", ",", "Kissamile", ",", "Kristoffer", ",", "L-O-V-E", ",", "LaJavanaise", ",", "Lasa", ",", "Liana", ",", "LianaIntro16", ",", "LoveYourself", ",", "Lullaby", ",", "MakingFlippy", ",", "Malaky", ",", "Masoala", ",", "Mezerg", ",", "MieuxQue", ",", "Nightintunisia", ",", "Padam", ",", "PasAVendre", ",", "PasJalouse", ",", "PasPeur", ",", "Perfect", ",", "Perhaps", ",", "Rasputin", ",", "Rasputincourt", ",", "Reveeveille", ",", "SatinDoll", ",", "Save", ",", "Sojerina", ",", "SoWhat", ",", "Spain", ",", "StarWazzz", ",", "Summertime", ",", "Sunny", ",", "TakeFive", ",", "TheseBoots", ",", "Tsofyrano", ",", "VatoMalaza", ",", "Walk", ",", "Williason", ",", "WizKhalifa", ",", "Zay" ],
+					"items" : [ "select", ",", "select", ",", "select", ",", "select", ",", "select", ",", "select", ",", "select", ",", "select", ",", "AllINeed", ",", "AllOfMe", ",", "Allthethingsyouare", ",", "AutumnleavesDoMin", ",", "BalitaKely", ",", "BandeOrgueZay", ",", "Baobab", ",", "BesameMucho", ",", "Bilo", ",", "BluesFamaj", ",", "BodyAndSoul", ",", "Boomerang", ",", "CamelBluesTernaire8", ",", "Capharnaum", ",", "Caravan", ",", "Carlos", ",", "Cerebral", ",", "CheektoCheek", ",", "CheektoCheekDjin", ",", "Cheerleader", ",", "ChegadeSaudade", ",", "Dang", ",", "Embona", ",", "Equilibrium", ",", "Espion", ",", "EtrangeJournee", ",", "EveryBreath", ",", "Fahatsia", ",", "Fara", ",", "Formidable", ",", "Free1", ",", "Free16", ",", "Free24", ",", "Free32", ",", "Free4", ",", "Free8", ",", "FreedomJazzDance", ",", "Guerre", ",", "Handfulofkeys", ",", "Helmut", ",", "Hoany", ",", "Ifarakely", ",", "Jabeau", ",", "JakeFine", ",", "JustAGigolo", ",", "JustTheWay", ",", "Kilalao", ",", "KillerJoe", ",", "Kissamile", ",", "Kristoffer", ",", "L-O-V-E", ",", "LaJavanaise", ",", "Lasa", ",", "Liana", ",", "LianaIntro16", ",", "LoveYourself", ",", "Lullaby", ",", "MakingFlippy", ",", "Malaky", ",", "Masoala", ",", "Mezerg", ",", "MieuxQue", ",", "Nightintunisia", ",", "Padam", ",", "PasAVendre", ",", "PasJalouse", ",", "PasPeur", ",", "Perfect", ",", "Perhaps", ",", "Rasputin", ",", "Rasputincourt", ",", "Reveeveille", ",", "SatinDoll", ",", "Save", ",", "Sojerina", ",", "SoWhat", ",", "Spain", ",", "StarWazzz", ",", "Summertime", ",", "Sunny", ",", "TakeFive", ",", "TheseBoots", ",", "Tsofyrano", ",", "VatoMalaza", ",", "Walk", ",", "Williason", ",", "WizKhalifa", ",", "Zay" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -928,7 +928,7 @@
 					"patching_rect" : [ 574.0, 160.0, 208.0, 22.0 ],
 					"prefix" : "Macintosh HD:/Users/danielbrown/Documents/Max 8/Projects/djazz_with_data/patchers/view/djazz_user/scores",
 					"presentation" : 1,
-					"presentation_rect" : [ 269.0, 112.0, 296.0, 22.0 ],
+					"presentation_rect" : [ 283.0, 112.0, 296.0, 22.0 ],
 					"types" : "fold",
 					"varname" : "umenu"
 				}
@@ -2247,7 +2247,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 216.0, 145.0, 55.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 166.0, 4.0, 108.0, 100.429937572526143 ],
+					"presentation_rect" : [ 180.0, 4.0, 108.0, 100.429937572526143 ],
 					"text" : "MIDI",
 					"texton" : "MIDI",
 					"varname" : "textbutton[1]"
@@ -2266,7 +2266,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 76.0, 145.0, 67.0, 28.228247279098014 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 287.0, 4.0, 101.0, 100.0 ],
+					"presentation_rect" : [ 299.0, 4.0, 101.0, 100.0 ],
 					"text" : "AUDIO",
 					"texton" : "AUDIO",
 					"varname" : "textbutton"
@@ -2448,7 +2448,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 419.0, 72.0, 71.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 217.0, 112.0, 47.200000703334808, 22.800000011920929 ],
+					"presentation_rect" : [ 231.0, 112.0, 47.200001, 22.0 ],
 					"text" : "browse",
 					"texton" : "browse",
 					"usebgoncolor" : 1,
@@ -2468,7 +2468,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 521.0, 72.0, 71.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 570.0, 112.0, 42.0, 22.0 ],
+					"presentation_rect" : [ 584.0, 112.0, 42.0, 22.0 ],
 					"text" : "clear",
 					"texton" : "clear",
 					"usebgoncolor" : 1,
@@ -2514,7 +2514,7 @@
 					"patching_rect" : [ 363.0, 65.0, 35.0, 34.0 ],
 					"pic" : "song_folder.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 166.0, 107.0, 47.200000703334808, 30.883352541223303 ]
+					"presentation_rect" : [ 180.0, 107.0, 47.200000703334808, 30.883352541223303 ]
 				}
 
 			}
@@ -3582,13 +3582,6 @@
 				"name" : "djazz_midi_out_effect_list_view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/midi/midi_out_bank",
 				"patcherrelativepath" : "../midi/midi_out_bank",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_range.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/iterators",
-				"patcherrelativepath" : "../tools/iterators",
 				"type" : "JSON",
 				"implicit" : 1
 			}

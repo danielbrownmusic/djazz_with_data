@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 50.0, 110.0, 804.0, 541.0 ],
+		"rect" : [ 50.0, 110.0, 864.0, 490.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1247,7 +1247,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1205.0, 907.0, 71.342129588127136, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 571.00000011920929, 298.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 579.00000011920929, 298.0, 53.0, 20.0 ],
 					"text" : "(VJAZZ)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.980392156862745 ]
 				}
@@ -1271,7 +1271,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 51.0, 485.0, 507.0, 99.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.0, 379.0, 502.0, 107.0 ],
+					"presentation_rect" : [ 130.00000011920929, 379.0, 502.0, 107.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -5652,7 +5652,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1137.0, 904.0, 146.342129588127023, 78.333332300186157 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 504.00000011920929, 297.0, 120.0, 74.0 ],
+					"presentation_rect" : [ 512.00000011920929, 297.0, 120.0, 74.0 ],
 					"varname" : "udp_send",
 					"viewvisibility" : 1
 				}
@@ -5705,7 +5705,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 212.0, 136.0, 627.0, 290.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.00000011920929, 1.6666659116745, 622.0, 287.0 ],
+					"presentation_rect" : [ 2.00000011920929, 1.6666659116745, 630.0, 287.0 ],
 					"varname" : "view",
 					"viewvisibility" : 1
 				}
@@ -7795,13 +7795,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/code/parameters",
 				"patcherrelativepath" : "./code/parameters",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz_range.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_with_data/patchers/tools/iterators",
-				"patcherrelativepath" : "./patchers/tools/iterators",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
