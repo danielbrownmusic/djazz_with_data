@@ -1695,7 +1695,6 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-13",
-																	"int" : 1,
 																	"maxclass" : "gswitch2",
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
@@ -7993,7 +7992,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "ctrl variables",
 					"id" : "obj-67",
 					"index" : 1,
 					"maxclass" : "inlet",
