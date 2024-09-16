@@ -1310,7 +1310,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-15",
@@ -1696,6 +1695,7 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-13",
+																	"int" : 1,
 																	"maxclass" : "gswitch2",
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
@@ -8037,7 +8037,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.0, 311.0, 30.0, 30.0 ]
+					"patching_rect" : [ 40.0, 314.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -8049,7 +8049,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 258.0, 311.0, 30.0, 30.0 ]
+					"patching_rect" : [ 258.0, 314.0, 30.0, 30.0 ]
 				}
 
 			}

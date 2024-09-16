@@ -284,7 +284,6 @@
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "meter~",
-					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -361,7 +360,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 758.0, 122.5, 43.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0 ],
+						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -533,7 +532,6 @@
 				"box" : 				{
 					"id" : "obj-36",
 					"maxclass" : "meter~",
-					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -705,7 +703,7 @@
 					"patching_rect" : [ 299.0, 200.0, 30.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 22.0, 30.0, 30.0 ],
-					"varname" : "audio_out_#1_volume"
+					"varname" : "audio_out_1_volume"
 				}
 
 			}
@@ -774,7 +772,7 @@
 				"box" : 				{
 					"comment" : "ctrl variables",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -803,7 +801,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "audio_out_#1_solo",
+							"parameter_longname" : "audio_out_1_solo",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "led[1]",
@@ -812,7 +810,7 @@
 
 					}
 ,
-					"varname" : "audio_out_#1_solo"
+					"varname" : "audio_out_1_solo"
 				}
 
 			}
@@ -834,7 +832,7 @@
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "midi_out_#1_mute",
+							"parameter_longname" : "audio_out_1_mute",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "led",
@@ -843,7 +841,7 @@
 
 					}
 ,
-					"varname" : "midi_out_#1_mute"
+					"varname" : "audio_out_1_mute"
 				}
 
 			}
@@ -867,7 +865,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "midi_out_#1_unmute",
+							"parameter_longname" : "audio_out_1_unmute",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "led",
@@ -876,7 +874,7 @@
 
 					}
 ,
-					"varname" : "midi_out_#1_unmute"
+					"varname" : "audio_out_1_unmute"
 				}
 
 			}
@@ -1091,24 +1089,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "audio_out_#1_solo", "led[1]", 0 ],
-			"obj-10" : [ "midi_out_#1_unmute", "led", 0 ],
-			"obj-9" : [ "midi_out_#1_mute", "led", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-10", "obj-5" ]
 			}
