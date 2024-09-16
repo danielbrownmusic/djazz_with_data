@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 5,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -116,7 +116,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 106.5, 14.0, 40.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"initial" : [ 0 ],
+						"initial" : [ 1 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
