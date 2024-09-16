@@ -1310,6 +1310,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-15",
@@ -1345,7 +1346,7 @@
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 367.0, 21.0, 183.0, 35.0 ],
 									"saved_object_attributes" : 									{
-										"initial" : [ 0 ],
+										"initial" : [ 1 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -2718,7 +2719,7 @@
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 258.0, 18.5, 80.0, 35.0 ],
 									"saved_object_attributes" : 									{
-										"initial" : [ 0 ],
+										"initial" : [ 1 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}

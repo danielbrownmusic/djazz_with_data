@@ -44,7 +44,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "dec" ],
+					"outlettype" : [ "int", "inc" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -535,7 +535,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 557.0, 193.0, 103.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "combine #1 _reset_pitch"
 				}
 
@@ -573,7 +572,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 449.0, 193.0, 103.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "combine #1 _pitch_down"
 				}
 
@@ -611,7 +609,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 669.0, 193.0, 103.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "combine #1 _pitch_up"
 				}
 
@@ -647,7 +644,7 @@
 					"text" : "0",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "0",
-					"textoncolor" : [ 0.925490196078431, 0.905882352941176, 0.87843137254902, 1.0 ],
+					"textoncolor" : [ 1.0, 0.611764705882353, 0.0, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
 					"varname" : "#1_reset_pitch"
@@ -687,7 +684,7 @@
 					"text" : "6",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "6",
-					"textoncolor" : [ 0.925490196078431, 0.905882352941176, 0.87843137254902, 1.0 ],
+					"textoncolor" : [ 1.0, 0.611764705882353, 0.0, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
 					"varname" : "#1_pitch_down"
@@ -727,7 +724,7 @@
 					"text" : "5",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"texton" : "5",
-					"textoncolor" : [ 0.925490196078431, 0.905882352941176, 0.87843137254902, 1.0 ],
+					"textoncolor" : [ 1.0, 0.611764705882353, 0.0, 1.0 ],
 					"textovercolor" : [ 1.0, 0.984313725490196, 0.984313725490196, 1.0 ],
 					"usebgoncolor" : 1,
 					"varname" : "#1_pitch_up"
@@ -743,7 +740,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 261.0, 198.0, 96.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"saved_object_attributes" : 					{
 						"initial" : [ 0 ],
 						"parameter_enable" : 0,
@@ -788,7 +784,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 137.0, 198.0, 97.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "combine #1 _pitch"
 				}
 
@@ -1385,7 +1380,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "dec", "int" ],
+					"outlettype" : [ "inc", "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
