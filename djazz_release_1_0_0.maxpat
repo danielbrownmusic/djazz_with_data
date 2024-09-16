@@ -900,7 +900,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 129.0, 774.5, 109.0, 22.0 ],
+					"patching_rect" : [ 127.0, 766.0, 109.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1389,7 +1389,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 59.0, 726.5, 159.0, 23.0 ],
+					"patching_rect" : [ 57.0, 718.0, 159.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 353.0, 297.0, 109.0, 23.0 ]
 				}
@@ -5667,7 +5667,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 67.0, 688.5, 123.0, 22.0 ],
+					"patching_rect" : [ 65.0, 680.0, 123.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 237.0, 297.0, 114.0, 22.0 ],
 					"text" : "CONTROLLERS",
@@ -6327,7 +6327,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"midpoints" : [ 138.5, 814.5, 47.25, 814.5, 47.25, 715.5, 68.5, 715.5 ],
+					"midpoints" : [ 136.5, 806.0, 45.25, 806.0, 45.25, 707.0, 66.5, 707.0 ],
 					"source" : [ "obj-77", 0 ]
 				}
 
